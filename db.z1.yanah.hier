@@ -1,0 +1,27 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	3600
+@	IN	SOA	z1.yanah.hier.  master.z1.yanah.hier. (
+			      8		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+; name servers - NS records
+@	IN	NS	dns-z1.z1.yanah.hier.
+	IN	NS	dns-z2.z2.yanah.hier.
+;
+@	IN	MX	0	dns-z1.z1.yanah.hier.
+
+; name servers - A records
+dns-z1	IN	A	192.168.11.100
+; requests for the general domain
+@	IN	A	192.168.11.100
+;
+ 
+in	IN	A	192.168.11.101
+bacon	IN	A	192.168.11.102
+ham	IN	CNAME	bacon
+out	IN	A	192.168.11.103

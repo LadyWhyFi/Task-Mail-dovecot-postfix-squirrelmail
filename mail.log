@@ -1,0 +1,1055 @@
+Feb  5 15:04:01 z1 postfix/postfix-script[2868]: starting the Postfix mail system
+Feb  5 15:04:01 z1 postfix/master[2871]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb  5 15:10:17 z1 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up without any protocols (core dumps disabled)
+Feb  5 15:10:17 z1 dovecot: ssl-params: Generating SSL parameters
+Feb  5 15:10:19 z1 dovecot: master: Warning: Killed with signal 15 (by pid=15206 uid=0 code=kill)
+Feb  5 15:10:19 z1 dovecot: log: Warning: Killed with signal 15 (by pid=1 uid=0 code=kill)
+Feb  5 15:10:19 z1 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap (core dumps disabled)
+Feb  5 15:10:19 z1 dovecot: ssl-params: Generating SSL parameters
+Feb  5 15:10:24 z1 dovecot: ssl-params: SSL parameters regeneration completed
+Feb  5 15:36:18 z1 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap (core dumps disabled)
+Feb  5 15:36:19 z1 postfix/postfix-script[1216]: starting the Postfix mail system
+Feb  5 15:36:19 z1 postfix/master[1220]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 14 19:38:13 z1 dovecot: imap-login: Aborted login (no auth attempts in 1 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<bUuOzN+BksTAqA1j>
+Feb 14 19:38:13 z1 dovecot: imap-login: Aborted login (no auth attempts in 1 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<LE6OzN+BtMTAqA1j>
+Feb 14 19:38:13 z1 postfix/smtpd[130722]: connect from unknown[192.168.13.99]
+Feb 14 19:38:13 z1 postfix/smtpd[130731]: connect from unknown[192.168.13.99]
+Feb 14 19:38:13 z1 postfix/smtpd[130731]: improper command pipelining after EHLO from unknown[192.168.13.99]: QUIT\r\n
+Feb 14 19:38:13 z1 postfix/smtpd[130722]: improper command pipelining after EHLO from unknown[192.168.13.99]: QUIT\r\n
+Feb 14 19:38:13 z1 postfix/smtpd[130731]: disconnect from unknown[192.168.13.99] ehlo=1 quit=1 commands=2
+Feb 14 19:38:13 z1 postfix/smtpd[130722]: disconnect from unknown[192.168.13.99] ehlo=1 quit=1 commands=2
+Feb 14 19:38:34 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, TLS: SSL_read() failed: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca: SSL alert number 48, session=<HPHPzd+BCMXAqA1j>
+Feb 14 19:38:34 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, TLS: SSL_read() failed: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca: SSL alert number 48, session=<LlPQzd+BCsXAqA1j>
+Feb 14 19:39:12 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, TLS: SSL_read() failed: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca: SSL alert number 48, session=<auEc0N+BDMXAqA1j>
+Feb 14 19:39:12 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, TLS: SSL_read() failed: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca: SSL alert number 48, session=<WYgd0N+BDsXAqA1j>
+Feb 14 19:41:33 z1 postfix/anvil[130741]: statistics: max connection rate 2/60s for (smtp:192.168.13.99) at Feb 14 19:38:13
+Feb 14 19:41:33 z1 postfix/anvil[130741]: statistics: max connection count 2 for (smtp:192.168.13.99) at Feb 14 19:38:13
+Feb 14 19:41:33 z1 postfix/anvil[130741]: statistics: max cache size 1 at Feb 14 19:38:13
+Feb 14 19:42:11 z1 dovecot: imap-login: Aborted login (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<A0rB2t+BkMXAqA1j>
+Feb 14 19:42:11 z1 dovecot: imap-login: Aborted login (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<U07B2t+BvMXAqA1j>
+Feb 14 19:42:11 z1 postfix/smtpd[28477]: connect from unknown[192.168.13.99]
+Feb 14 19:42:11 z1 postfix/smtpd[28481]: connect from unknown[192.168.13.99]
+Feb 14 19:42:11 z1 postfix/smtpd[28477]: improper command pipelining after EHLO from unknown[192.168.13.99]: QUIT\r\n
+Feb 14 19:42:11 z1 postfix/smtpd[28477]: disconnect from unknown[192.168.13.99] ehlo=1 quit=1 commands=2
+Feb 14 19:42:11 z1 postfix/smtpd[28481]: lost connection after CONNECT from unknown[192.168.13.99]
+Feb 14 19:42:11 z1 postfix/smtpd[28481]: disconnect from unknown[192.168.13.99] commands=0/0
+Feb 14 19:43:54 z1 dovecot: imap-login: Aborted login (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<VIfk4N+BGMbAqA1j>
+Feb 14 19:43:54 z1 postfix/smtpd[40405]: connect from unknown[192.168.13.99]
+Feb 14 19:43:54 z1 postfix/smtpd[40405]: improper command pipelining after EHLO from unknown[192.168.13.99]:
+Feb 14 19:43:54 z1 postfix/smtpd[40405]: disconnect from unknown[192.168.13.99] ehlo=1 quit=1 commands=2
+Feb 14 19:43:57 z1 dovecot: imap-login: Aborted login (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<Sc8V4d+BHMbAqA1j>
+Feb 14 19:43:57 z1 postfix/smtpd[40405]: connect from unknown[192.168.13.99]
+Feb 14 19:43:57 z1 postfix/smtpd[40405]: disconnect from unknown[192.168.13.99] ehlo=1 quit=1 commands=2
+Feb 14 19:47:17 z1 postfix/anvil[28482]: statistics: max connection rate 2/60s for (smtp:192.168.13.99) at Feb 14 19:42:11
+Feb 14 19:47:17 z1 postfix/anvil[28482]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 14 19:42:11
+Feb 14 19:47:17 z1 postfix/anvil[28482]: statistics: max cache size 1 at Feb 14 19:42:11
+Feb 14 19:51:44 z1 postfix/smtpd[100498]: connect from unknown[192.168.13.99]
+Feb 14 19:51:44 z1 postfix/smtpd[100498]: improper command pipelining after EHLO from unknown[192.168.13.99]: QUIT\r\n
+Feb 14 19:51:44 z1 postfix/smtpd[100498]: disconnect from unknown[192.168.13.99] ehlo=1 quit=1 commands=2
+Feb 14 19:51:44 z1 dovecot: imap-login: Aborted login (no auth attempts in 1 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<Qwvo/N+BUsbAqA1j>
+Feb 14 19:51:44 z1 dovecot: imap-login: Aborted login (no auth attempts in 1 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<eg/o/N+BiMbAqA1j>
+Feb 14 19:51:44 z1 postfix/smtpd[100502]: connect from unknown[192.168.13.99]
+Feb 14 19:51:44 z1 postfix/smtpd[100502]: lost connection after CONNECT from unknown[192.168.13.99]
+Feb 14 19:51:44 z1 postfix/smtpd[100502]: disconnect from unknown[192.168.13.99] commands=0/0
+Feb 14 19:51:48 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, TLS: SSL_read() failed: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca: SSL alert number 48, session=<7Tok/d+BzMbAqA1j>
+Feb 14 19:51:48 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, TLS: SSL_read() failed: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca: SSL alert number 48, session=<tpEk/d+BzsbAqA1j>
+Feb 14 19:51:50 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, TLS: SSL_read() failed: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca: SSL alert number 48, session=<9OND/d+B0MbAqA1j>
+Feb 14 19:51:50 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, TLS: SSL_read() failed: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca: SSL alert number 48, session=<JThE/d+B0sbAqA1j>
+Feb 14 19:51:50 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, TLS: SSL_read() failed: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca: SSL alert number 48, session=<Zu9M/d+B1MbAqA1j>
+Feb 14 19:51:50 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, TLS: SSL_read() failed: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca: SSL alert number 48, session=<+kRN/d+B1sbAqA1j>
+Feb 14 19:53:36 z1 dovecot: imap-login: Aborted login (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<7JqaA+CBuMfAqA1j>
+Feb 14 19:53:36 z1 postfix/smtpd[115662]: connect from unknown[192.168.13.99]
+Feb 14 19:53:36 z1 postfix/smtpd[115662]: improper command pipelining after EHLO from unknown[192.168.13.99]: QUIT\r\n
+Feb 14 19:53:36 z1 postfix/smtpd[115662]: disconnect from unknown[192.168.13.99] ehlo=1 quit=1 commands=2
+Feb 14 19:56:56 z1 postfix/anvil[100510]: statistics: max connection rate 2/60s for (smtp:192.168.13.99) at Feb 14 19:51:44
+Feb 14 19:56:56 z1 postfix/anvil[100510]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 14 19:51:44
+Feb 14 19:56:56 z1 postfix/anvil[100510]: statistics: max cache size 1 at Feb 14 19:51:44
+Feb 14 20:03:40 z1 postfix/postfix-script[58927]: the Postfix mail system is running: PID: 1220
+Feb 14 20:03:50 z1 postfix/smtpd[59843]: connect from localhost6.localdomain6[::1]
+Feb 14 20:04:34 z1 postfix/smtpd[64199]: connect from unknown[192.168.13.99]
+Feb 14 20:04:34 z1 postfix/smtpd[64192]: connect from unknown[192.168.13.99]
+Feb 14 20:04:34 z1 postfix/smtpd[64199]: improper command pipelining after EHLO from unknown[192.168.13.99]: QUIT\r\n
+Feb 14 20:04:34 z1 postfix/smtpd[64199]: disconnect from unknown[192.168.13.99] ehlo=1 quit=1 commands=2
+Feb 14 20:04:34 z1 postfix/smtpd[64192]: improper command pipelining after EHLO from unknown[192.168.13.99]: QUIT\r\n
+Feb 14 20:04:34 z1 postfix/smtpd[64192]: disconnect from unknown[192.168.13.99] ehlo=1 quit=1 commands=2
+Feb 14 20:04:34 z1 dovecot: imap-login: Aborted login (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<DzTRKuCB7sjAqA1j>
+Feb 14 20:04:34 z1 dovecot: imap-login: Aborted login (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<ejjRKuCB+MjAqA1j>
+Feb 14 20:04:36 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, TLS: SSL_read() failed: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca: SSL alert number 48, session=<Q/zrKuCBWsnAqA1j>
+Feb 14 20:04:36 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, TLS: SSL_read() failed: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca: SSL alert number 48, session=<JLnsKuCBXMnAqA1j>
+Feb 14 20:04:37 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, TLS: SSL_read() failed: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca: SSL alert number 48, session=<sLX+KuCBXsnAqA1j>
+Feb 14 20:04:37 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, TLS: SSL_read() failed: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca: SSL alert number 48, session=<sDn/KuCBYMnAqA1j>
+Feb 14 20:05:41 z1 postfix/smtpd[59843]: disconnect from localhost6.localdomain6[::1] ehlo=1 quit=1 unknown=0/1 commands=2/3
+Feb 14 20:06:09 z1 postfix/postfix-script[77699]: the Postfix mail system is running: PID: 1220
+Feb 14 20:06:19 z1 postfix/smtpd[59843]: connect from localhost6.localdomain6[::1]
+Feb 14 20:07:19 z1 postfix/smtpd[59843]: 227E6E0189: client=localhost6.localdomain6[::1]
+Feb 14 20:07:54 z1 postfix/anvil[64224]: statistics: max connection rate 2/60s for (smtp:192.168.13.99) at Feb 14 20:04:34
+Feb 14 20:07:54 z1 postfix/anvil[64224]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 14 20:04:34
+Feb 14 20:07:54 z1 postfix/anvil[64224]: statistics: max cache size 1 at Feb 14 20:04:34
+Feb 14 20:07:59 z1 postfix/cleanup[86254]: 227E6E0189: message-id=<20190214200719.227E6E0189@z1.yanah.hier>
+Feb 14 20:07:59 z1 postfix/qmgr[1234]: 227E6E0189: from=<root@z1.yanah.hier>, size=380, nrcpt=1 (queue active)
+Feb 14 20:07:59 z1 postfix/local[91635]: 227E6E0189: to=<u1@z1.yanah.hier>, relay=local, delay=64, delays=64/0.06/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Feb 14 20:07:59 z1 postfix/qmgr[1234]: 227E6E0189: removed
+Feb 14 20:08:02 z1 postfix/smtpd[59843]: disconnect from localhost6.localdomain6[::1] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 14 20:14:06 z1 postfix/postfix-script[5000]: stopping the Postfix mail system
+Feb 14 20:14:06 z1 postfix/master[1220]: terminating on signal 15
+Feb 14 20:14:06 z1 postfix/postfix-script[5009]: waiting for the Postfix mail system to terminate
+Feb 14 20:14:07 z1 postfix/postfix-script[5361]: starting the Postfix mail system
+Feb 14 20:14:07 z1 postfix/master[5363]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 14 20:14:56 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, TLS: SSL_read() failed: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca: SSL alert number 48, session=<qLrkT+CBasnAqA1j>
+Feb 14 20:14:56 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, TLS: SSL_read() failed: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca: SSL alert number 48, session=<ayblT+CBbMnAqA1j>
+Feb 14 20:14:57 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, TLS: SSL_read() failed: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca: SSL alert number 48, session=</A30T+CBbsnAqA1j>
+Feb 14 20:14:57 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, TLS: SSL_read() failed: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca: SSL alert number 48, session=<9mr0T+CBcMnAqA1j>
+Feb 14 20:17:12 z1 dovecot: imap-login: Aborted login (no auth attempts in 1 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<vVP4V+CBcsnAqA1j>
+Feb 14 20:17:12 z1 postfix/smtpd[28522]: connect from unknown[192.168.13.99]
+Feb 14 20:17:12 z1 postfix/smtpd[28522]: improper command pipelining after EHLO from unknown[192.168.13.99]: QUIT\r\n
+Feb 14 20:17:12 z1 postfix/smtpd[28522]: disconnect from unknown[192.168.13.99] ehlo=1 quit=1 commands=2
+Feb 14 20:17:23 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, TLS: SSL_read() failed: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca: SSL alert number 48, session=<cGWhWOCBdsnAqA1j>
+Feb 14 20:19:06 z1 dovecot: imap-login: Aborted login (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<lwPLXuCBvMnAqA1j>
+Feb 14 20:19:06 z1 dovecot: imap-login: Aborted login (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<QgjLXuCB+MnAqA1j>
+Feb 14 20:19:06 z1 postfix/smtpd[43025]: connect from unknown[192.168.13.99]
+Feb 14 20:19:06 z1 postfix/smtpd[43025]: improper command pipelining after EHLO from unknown[192.168.13.99]: QUIT\r\n
+Feb 14 20:19:06 z1 postfix/smtpd[43025]: disconnect from unknown[192.168.13.99] ehlo=1 quit=1 commands=2
+Feb 14 20:19:06 z1 postfix/smtpd[43018]: connect from unknown[192.168.13.99]
+Feb 14 20:19:06 z1 postfix/smtpd[43018]: improper command pipelining after EHLO from unknown[192.168.13.99]:
+Feb 14 20:19:06 z1 postfix/smtpd[43018]: disconnect from unknown[192.168.13.99] ehlo=1 quit=1 commands=2
+Feb 14 20:19:11 z1 dovecot: imap-login: Aborted login (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<+mYaX+CBOsrAqA1j>
+Feb 14 20:19:11 z1 postfix/smtpd[43025]: connect from unknown[192.168.13.99]
+Feb 14 20:19:11 z1 postfix/smtpd[43025]: disconnect from unknown[192.168.13.99] ehlo=1 quit=1 commands=2
+Feb 14 20:19:47 z1 dovecot: imap-login: Aborted login (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<Pj81YeCBWsrAqA1j>
+Feb 14 20:19:47 z1 dovecot: imap-login: Aborted login (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<qUI1YeCBesrAqA1j>
+Feb 14 20:19:47 z1 postfix/smtpd[43018]: connect from unknown[192.168.13.99]
+Feb 14 20:19:47 z1 postfix/smtpd[43025]: connect from unknown[192.168.13.99]
+Feb 14 20:19:47 z1 postfix/smtpd[43025]: improper command pipelining after EHLO from unknown[192.168.13.99]: QUIT\r\n
+Feb 14 20:19:47 z1 postfix/smtpd[43025]: disconnect from unknown[192.168.13.99] ehlo=1 quit=1 commands=2
+Feb 14 20:19:47 z1 postfix/smtpd[43018]: disconnect from unknown[192.168.13.99] ehlo=1 quit=1 commands=2
+Feb 14 20:19:51 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=49473, TLS, session=<DFZ4YeCB1MrAqA1j>
+Feb 14 20:19:51 z1 dovecot: imap(u3): Logged out in=8 out=404
+Feb 14 20:23:07 z1 postfix/anvil[28562]: statistics: max connection rate 5/60s for (smtp:192.168.13.99) at Feb 14 20:19:47
+Feb 14 20:23:07 z1 postfix/anvil[28562]: statistics: max connection count 2 for (smtp:192.168.13.99) at Feb 14 20:19:47
+Feb 14 20:23:07 z1 postfix/anvil[28562]: statistics: max cache size 1 at Feb 14 20:17:12
+Feb 14 20:27:42 z1 postfix/smtpd[107294]: connect from unknown[192.168.13.99]
+Feb 14 20:27:42 z1 postfix/smtpd[107294]: warning: TLS library problem: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca:../ssl/record/rec_layer_s3.c:1399:SSL alert number 48:
+Feb 14 20:27:42 z1 postfix/smtpd[107294]: lost connection after STARTTLS from unknown[192.168.13.99]
+Feb 14 20:27:42 z1 postfix/smtpd[107294]: disconnect from unknown[192.168.13.99] ehlo=1 starttls=1 commands=2
+Feb 14 20:27:44 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=107925, TLS, session=<CY2pfeCB5szAqA1j>
+Feb 14 20:27:55 z1 postfix/smtpd[107294]: connect from unknown[192.168.13.99]
+Feb 14 20:27:55 z1 postfix/smtpd[107294]: 3D5A5E0B1D: client=unknown[192.168.13.99]
+Feb 14 20:27:55 z1 postfix/cleanup[109765]: 3D5A5E0B1D: message-id=<b91edb83-e9ae-4c03-bd42-0731c6218e78@z1.yanah.hier>
+Feb 14 20:27:55 z1 postfix/smtpd[107294]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 14 20:27:55 z1 postfix/qmgr[5366]: 3D5A5E0B1D: from=<u1@z1.yanah.hier>, size=589, nrcpt=1 (queue active)
+Feb 14 20:27:55 z1 postfix/local[109785]: 3D5A5E0B1D: to=<u2@z1.yanah.hier>, relay=local, delay=0.21, delays=0.1/0.09/0/0.02, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 14 20:27:55 z1 postfix/qmgr[5366]: 3D5A5E0B1D: removed
+Feb 14 20:27:55 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=109810, TLS, session=<qexSfuCB6szAqA1j>
+Feb 14 20:28:15 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=112674, TLS, session=<M+CBf+CB/MzAqA1j>
+Feb 14 20:28:28 z1 postfix/smtpd[107294]: connect from unknown[192.168.13.99]
+Feb 14 20:28:28 z1 postfix/smtpd[107294]: 8BEDBE0B1D: client=unknown[192.168.13.99]
+Feb 14 20:28:28 z1 postfix/cleanup[109765]: 8BEDBE0B1D: message-id=<8d7f5897-1dab-4b4d-b7e6-c9593321552f@z1.yanah.hier>
+Feb 14 20:28:28 z1 postfix/smtpd[107294]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 14 20:28:28 z1 postfix/qmgr[5366]: 8BEDBE0B1D: from=<u1@z1.yanah.hier>, size=596, nrcpt=1 (queue active)
+Feb 14 20:28:28 z1 postfix/local[109785]: 8BEDBE0B1D: to=<u2@z1.yanah.hier>, relay=local, delay=0.23, delays=0.12/0.04/0/0.08, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 14 20:28:28 z1 postfix/qmgr[5366]: 8BEDBE0B1D: removed
+Feb 14 20:28:28 z1 dovecot: imap(u1): Connection closed (IDLE running for 0.001 + waiting input for 0.001 secs, 0.001 in locks, 2 B in + 10+10 B out, state=wait-input) in=802 out=2001
+Feb 14 20:28:36 z1 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=115384, TLS, session=<tqXJgOCBAM3AqA1j>
+Feb 14 20:29:09 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=119271, TLS, session=<fKS1guCBAs3AqA1j>
+Feb 14 20:30:21 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=127320, TLS, session=<lPQAh+CBnM3AqA1j>
+Feb 14 20:31:48 z1 postfix/anvil[107820]: statistics: max connection rate 3/60s for (smtp:192.168.13.99) at Feb 14 20:28:28
+Feb 14 20:31:48 z1 postfix/anvil[107820]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 14 20:27:42
+Feb 14 20:31:48 z1 postfix/anvil[107820]: statistics: max cache size 1 at Feb 14 20:27:42
+Feb 14 20:34:19 z1 postfix/smtpd[27582]: connect from unknown[192.168.13.99]
+Feb 14 20:34:20 z1 postfix/smtpd[27582]: 073C3E0B20: client=unknown[192.168.13.99]
+Feb 14 20:34:20 z1 postfix/cleanup[27586]: 073C3E0B20: message-id=<dc717db2-86c3-9157-efcb-3e0386982432@z1.yanah.hier>
+Feb 14 20:34:20 z1 postfix/smtpd[27582]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 14 20:34:20 z1 postfix/qmgr[5366]: 073C3E0B20: from=<u2@z1.yanah.hier>, size=590, nrcpt=1 (queue active)
+Feb 14 20:34:20 z1 postfix/local[27587]: 073C3E0B20: to=<u1@z1.yanah.hier>, relay=local, delay=0.13, delays=0.05/0.05/0/0.03, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 14 20:34:20 z1 postfix/qmgr[5366]: 073C3E0B20: removed
+Feb 14 20:34:20 z1 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=27635, TLS, session=<V6RCleCBsM3AqA1j>
+Feb 14 20:34:46 z1 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=31119, TLS, session=<t9DPluCBss3AqA1j>
+Feb 14 20:37:40 z1 postfix/anvil[27584]: statistics: max connection rate 1/60s for (smtp:192.168.13.99) at Feb 14 20:34:19
+Feb 14 20:37:40 z1 postfix/anvil[27584]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 14 20:34:19
+Feb 14 20:37:40 z1 postfix/anvil[27584]: statistics: max cache size 1 at Feb 14 20:34:19
+Feb 14 20:46:11 z1 dovecot: master: Warning: Killed with signal 15 (by pid=118031 uid=0 code=kill)
+Feb 14 20:46:11 z1 dovecot: imap(u1): Server shutting down. in=494 out=513
+Feb 14 20:46:11 z1 dovecot: imap(u2): Server shutting down. in=495 out=513
+Feb 14 20:46:12 z1 dovecot: log: Warning: Killed with signal 15 (by pid=1 uid=0 code=kill)
+Feb 14 20:46:12 z1 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap (core dumps disabled)
+Feb 14 20:46:13 z1 dovecot: master: Warning: Killed with signal 15 (by pid=118402 uid=0 code=kill)
+Feb 14 20:46:14 z1 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Feb 14 20:47:38 z1 dovecot: pop3-login: Aborted login (no auth attempts in 76 secs): user=<>, rip=::1, lip=::1, secured, session=<ABDYxOCB7tYAAAAAAAAAAAAAAAAAAAAB>
+Feb 14 20:47:42 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=128328, TLS, session=<1GsQxeCBuM3AqA1j>
+Feb 14 20:49:28 z1 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=11638, TLS, session=<r3pcy+CBus3AqA1j>
+Feb 14 20:50:45 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=22355, TLS, session=<fLP4z+CBvM3AqA1j>
+Feb 14 21:10:29 z1 dovecot: imap(u3): Logged out in=361 out=2358
+Feb 14 21:10:29 z1 dovecot: imap(u1): Logged out in=1260 out=5976
+Feb 14 21:10:29 z1 dovecot: imap(u2): Logged out in=1157 out=6867
+Feb 14 21:10:39 z1 dovecot: imap-login: Disconnected (disconnected before auth was ready, waited 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<AukgF+GBWM7AqA1j>
+Feb 14 21:10:39 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<jBYhF+GBWs7AqA1j>
+Feb 14 21:10:39 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<TS0hF+GBXM7AqA1j>
+Feb 14 21:11:27 z1 dovecot: imap-login: Aborted login (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<1wgCGuGBjM7AqA1j>
+Feb 14 21:11:27 z1 dovecot: pop3-login: Aborted login (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<WAwCGuGBpJ7AqA1j>
+Feb 14 21:11:27 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<wl4CGuGBvs7AqA1j>
+Feb 14 21:11:27 z1 dovecot: pop3-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<P3QCGuGB0J7AqA1j>
+Feb 14 21:11:27 z1 postfix/smtpd[48996]: connect from unknown[192.168.13.99]
+Feb 14 21:11:27 z1 postfix/smtpd[49021]: connect from unknown[192.168.13.99]
+Feb 14 21:11:27 z1 postfix/smtpd[49021]: improper command pipelining after EHLO from unknown[192.168.13.99]: QUIT\r\n
+Feb 14 21:11:27 z1 postfix/smtpd[48996]: disconnect from unknown[192.168.13.99] ehlo=1 quit=1 commands=2
+Feb 14 21:11:27 z1 postfix/smtpd[49021]: disconnect from unknown[192.168.13.99] ehlo=1 quit=1 commands=2
+Feb 14 21:14:48 z1 postfix/anvil[49054]: statistics: max connection rate 2/60s for (smtp:192.168.13.99) at Feb 14 21:11:27
+Feb 14 21:14:48 z1 postfix/anvil[49054]: statistics: max connection count 2 for (smtp:192.168.13.99) at Feb 14 21:11:27
+Feb 14 21:14:48 z1 postfix/anvil[49054]: statistics: max cache size 1 at Feb 14 21:11:27
+Feb 14 21:30:14 z1 postfix/smtpd[60068]: connect from unknown[192.168.13.99]
+Feb 14 21:30:14 z1 postfix/smtpd[60068]: CEA23E0676: client=unknown[192.168.13.99]
+Feb 14 21:30:14 z1 postfix/cleanup[60112]: CEA23E0676: message-id=<b11b90cb-9d2d-6560-7f83-880a157b6b7a@z1.yanah.hier>
+Feb 14 21:30:14 z1 postfix/smtpd[60068]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 14 21:30:14 z1 postfix/qmgr[5366]: CEA23E0676: from=<u1@z1.yanah.hier>, size=594, nrcpt=1 (queue active)
+Feb 14 21:30:14 z1 postfix/local[60114]: CEA23E0676: to=<u2@z1.yanah.hier>, relay=local, delay=0.16, delays=0.08/0.05/0/0.03, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 14 21:30:15 z1 postfix/qmgr[5366]: CEA23E0676: removed
+Feb 14 21:33:35 z1 postfix/anvil[60086]: statistics: max connection rate 1/60s for (smtp:192.168.13.99) at Feb 14 21:30:14
+Feb 14 21:33:35 z1 postfix/anvil[60086]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 14 21:30:14
+Feb 14 21:33:35 z1 postfix/anvil[60086]: statistics: max cache size 1 at Feb 14 21:30:14
+Feb 14 21:34:25 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=90433, TLS, session=<CFQdbOGB/IDAqA1j>
+Feb 14 21:34:25 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=90434, TLS, session=<FHEdbOGBAIHAqA1j>
+Feb 14 21:34:25 z1 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=90435, TLS, session=<IpsdbOGB/oDAqA1j>
+Feb 15 13:25:36 z1 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Feb 15 13:25:38 z1 postfix/postfix-script[1213]: starting the Postfix mail system
+Feb 15 13:25:38 z1 postfix/master[1217]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 15 13:26:45 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=1537, TLS, session=<wy35ue6BzJjAqA1j>
+Feb 15 13:26:45 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=1538, TLS, session=<SmX5ue6B0JjAqA1j>
+Feb 15 13:26:45 z1 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=1539, TLS, session=<9NX5ue6BzpjAqA1j>
+Feb 15 13:35:50 z1 dovecot: imap(u3): Logged out in=255 out=1644
+Feb 15 13:35:50 z1 dovecot: imap(u1): Logged out in=385 out=2026
+Feb 15 13:35:50 z1 dovecot: imap(u2): Logged out in=385 out=2026
+Feb 15 16:37:52 z1 postfix/postfix-script[3411]: refreshing the Postfix mail system
+Feb 15 16:37:52 z1 postfix/master[1217]: reload -- version 3.3.0, configuration /etc/postfix
+Feb 15 16:39:19 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=13884, TLS, session=<qryYavGBDKTAqA1j>
+Feb 15 16:39:19 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=13885, TLS, session=<nSqZavGBEKTAqA1j>
+Feb 15 16:39:19 z1 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=13886, TLS, session=<D+2YavGBDqTAqA1j>
+Feb 15 17:09:37 z1 postfix/smtpd[14014]: connect from unknown[192.168.13.99]
+Feb 15 17:09:37 z1 postfix/smtpd[14014]: 4938EE004A: client=unknown[192.168.13.99]
+Feb 15 17:09:37 z1 postfix/cleanup[14021]: 4938EE004A: message-id=<fbbc5030-166a-06b6-7ee9-5a0ecb37aef9@z1.yanah.hier>
+Feb 15 17:09:37 z1 postfix/smtpd[14014]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 15 17:09:37 z1 postfix/qmgr[3435]: 4938EE004A: from=<u3@z1.yanah.hier>, size=584, nrcpt=1 (queue active)
+Feb 15 17:09:37 z1 postfix/local[14022]: 4938EE004A: to=<u1@z1.yanah.hier>, relay=local, delay=0.15, delays=0.1/0.02/0/0.03, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 15 17:09:37 z1 postfix/qmgr[3435]: 4938EE004A: removed
+Feb 15 17:09:37 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=14027, TLS, session=<SHj81vGBHqTAqA1j>
+Feb 15 17:09:55 z1 postfix/smtpd[14014]: connect from unknown[192.168.13.99]
+Feb 15 17:09:55 z1 postfix/smtpd[14014]: NOQUEUE: reject: RCPT from unknown[192.168.13.99]: 454 4.7.1 <u2@z2.yanah.hier>: Relay access denied; from=<u3@z1.yanah.hier> to=<u2@z2.yanah.hier> proto=ESMTP helo=<[192.168.13.99]>
+Feb 15 17:10:00 z1 postfix/smtpd[14014]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=0/1 quit=1 commands=5/6
+Feb 15 17:11:00 z1 postfix/smtpd[14014]: connect from unknown[192.168.13.99]
+Feb 15 17:11:00 z1 postfix/smtpd[14014]: NOQUEUE: reject: RCPT from unknown[192.168.13.99]: 454 4.7.1 <u2@z2.yanah.hier>: Relay access denied; from=<u3@z1.yanah.hier> to=<u2@z2.yanah.hier> proto=ESMTP helo=<[192.168.13.99]>
+Feb 15 17:11:01 z1 postfix/smtpd[14014]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=0/1 quit=1 commands=5/6
+Feb 15 17:14:22 z1 postfix/anvil[14019]: statistics: max connection rate 2/60s for (smtp:192.168.13.99) at Feb 15 17:09:55
+Feb 15 17:14:22 z1 postfix/anvil[14019]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 15 17:09:37
+Feb 15 17:14:22 z1 postfix/anvil[14019]: statistics: max cache size 1 at Feb 15 17:09:37
+Feb 15 17:14:44 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=14051, TLS, session=<h7dO6fGBKKTAqA1j>
+Feb 17 09:43:14 z1 dovecot: imap: Warning: Time jumped forwards 144575 seconds
+Feb 17 09:43:14 z1 dovecot: message repeated 2 times: [ imap: Warning: Time jumped forwards 144575 seconds]
+Feb 17 09:43:15 z1 dovecot: imap: Warning: Time jumped forwards 144576 seconds
+Feb 17 09:45:06 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=14602, TLS, session=<arfs3BOCOKTAqA1j>
+Feb 17 09:54:08 z1 dovecot: imap: Warning: Time jumped forwards 144564 seconds
+Feb 17 09:54:08 z1 dovecot: imap(u3): Disconnected for inactivity in=570 out=715
+Feb 17 09:54:37 z1 dovecot: imap(u1): Logged out in=2721 out=11521
+Feb 17 09:54:37 z1 dovecot: imap(u3): Logged out in=1217 out=6447
+Feb 17 09:54:37 z1 dovecot: imap(u2): Logged out in=2224 out=9385
+Feb 17 09:54:37 z1 dovecot: imap(u3): Logged out in=1895 out=6152
+Feb 17 09:54:37 z1 dovecot: imap(u3): Logged out in=599 out=3014
+Feb 17 10:01:52 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=14676, TLS, session=<XWHoGBSCaq/AqA1j>
+Feb 17 10:01:52 z1 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=14678, TLS, session=<EafoGBSCbK/AqA1j>
+Feb 17 10:01:52 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=14679, TLS, session=<IrnoGBSCbq/AqA1j>
+Feb 17 10:16:25 z1 postfix/smtpd[14744]: connect from unknown[192.168.13.99]
+Feb 17 10:16:25 z1 postfix/smtpd[14744]: NOQUEUE: reject: RCPT from unknown[192.168.13.99]: 454 4.7.1 <u1@z2.yanah.hier>: Relay access denied; from=<u1@z1.yanah.hier> to=<u1@z2.yanah.hier> proto=ESMTP helo=<[192.168.13.99]>
+Feb 17 10:16:31 z1 postfix/smtpd[14744]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=0/1 quit=1 commands=5/6
+Feb 17 10:16:39 z1 dovecot: imap(u3): Logged out in=376 out=2312
+Feb 17 10:16:39 z1 dovecot: imap(u2): Logged out in=636 out=3028
+Feb 17 10:16:39 z1 dovecot: imap(u1): Logged out in=636 out=3064
+Feb 17 10:19:51 z1 postfix/anvil[14746]: statistics: max connection rate 1/60s for (smtp:192.168.13.99) at Feb 17 10:16:25
+Feb 17 10:19:51 z1 postfix/anvil[14746]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 17 10:16:25
+Feb 17 10:19:51 z1 postfix/anvil[14746]: statistics: max cache size 1 at Feb 17 10:16:25
+Feb 17 10:20:11 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=14774, TLS, session=<1kVwWhSCQIjAqA1j>
+Feb 17 10:20:11 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=14775, TLS, session=<mKNwWhSCRIjAqA1j>
+Feb 17 10:20:11 z1 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=14776, TLS, session=<j2dwWhSCQojAqA1j>
+Feb 17 10:20:36 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=14778, TLS, session=<34foWxSCSojAqA1j>
+Feb 17 10:20:36 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=14780, TLS, session=<nuLuWxSCTIjAqA1j>
+Feb 17 10:35:42 z1 dovecot: imap(u3): Logged out in=158 out=682
+Feb 17 10:35:42 z1 dovecot: imap(u1): Logged out in=586 out=2860
+Feb 17 10:35:42 z1 dovecot: imap(u3): Logged out in=266 out=1777
+Feb 17 10:35:42 z1 dovecot: imap(u3): Logged out in=352 out=2186
+Feb 17 10:35:42 z1 dovecot: imap(u2): Logged out in=586 out=2843
+Feb 17 10:37:49 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=14862, TLS, session=<Mip/mRSC/OHAqA1j>
+Feb 17 10:37:49 z1 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=14863, TLS, session=<pVN/mRSC+uHAqA1j>
+Feb 17 10:37:49 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=14864, TLS, session=<vJN/mRSC+OHAqA1j>
+Feb 17 10:38:03 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=14870, TLS, session=<lgVNmhSCAuLAqA1j>
+Feb 17 11:28:07 z1 dovecot: imap(u3): Disconnected for inactivity in=252 out=866
+Feb 17 14:18:35 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=15819, TLS, session=<tcQGrxeCTOPAqA1j>
+Feb 17 14:47:43 z1 dovecot: imap(u3): Logged out in=158 out=682
+Feb 17 14:47:43 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=15947, TLS, session=<2eovFxiCVOPAqA1j>
+Feb 17 15:17:40 z1 dovecot: imap(u3): Logged out in=158 out=682
+Feb 17 15:25:40 z1 dovecot: imap-login: Login: user=<yanah>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=16128, TLS, session=<1KHqnhiCVuPAqA1j>
+Feb 17 15:28:24 z1 postfix/pickup[15927]: 307ACE02A1: uid=1000 from=<yanah@z1.yanah.hier>
+Feb 17 15:28:24 z1 postfix/cleanup[16146]: 307ACE02A1: message-id=<20190217152824.307ACE02A1@z1.yanah.hier>
+Feb 17 15:28:24 z1 postfix/qmgr[3435]: 307ACE02A1: from=<yanah@z1.yanah.hier>, size=357, nrcpt=1 (queue active)
+Feb 17 15:28:24 z1 postfix/local[16148]: 307ACE02A1: to=<yanah@z1.yanah.hier>, orig_to=<root@z1.yanah.hier>, relay=local, delay=0.03, delays=0.02/0/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 15:28:24 z1 postfix/qmgr[3435]: 307ACE02A1: removed
+Feb 17 15:44:00 z1 postfix/pickup[15927]: 385A6E02A1: uid=1000 from=<yanah@z1.yanah.hier>
+Feb 17 15:44:00 z1 postfix/cleanup[16215]: 385A6E02A1: message-id=<20190217154400.385A6E02A1@z1.yanah.hier>
+Feb 17 15:44:00 z1 postfix/qmgr[3435]: 385A6E02A1: from=<yanah@z1.yanah.hier>, size=337, nrcpt=1 (queue active)
+Feb 17 15:44:00 z1 postfix/local[16217]: 385A6E02A1: to=<yanah@z1.yanah.hier>, relay=local, delay=0.03, delays=0.02/0/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 15:44:00 z1 postfix/qmgr[3435]: 385A6E02A1: removed
+Feb 17 16:06:44 z1 postfix/smtpd[16318]: connect from unknown[192.168.13.99]
+Feb 17 16:06:44 z1 postfix/smtpd[16318]: 17AB4E027C: client=unknown[192.168.13.99]
+Feb 17 16:06:44 z1 postfix/cleanup[16322]: 17AB4E027C: message-id=<4ae587cf-7a39-4e3d-ffa2-e41864eb9064@z1.yanah.hier>
+Feb 17 16:06:44 z1 postfix/qmgr[3435]: 17AB4E027C: from=<u1@z1.yanah.hier>, size=629, nrcpt=1 (queue active)
+Feb 17 16:06:44 z1 postfix/local[16323]: 17AB4E027C: to=<yanah@z1.yanah.hier>, orig_to=<postmaster@z1.yanah.hier>, relay=local, delay=0.02, delays=0.01/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 16:06:44 z1 postfix/qmgr[3435]: 17AB4E027C: removed
+Feb 17 16:06:44 z1 postfix/smtpd[16318]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 17 16:06:44 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=16326, TLS, session=<u8rDMRmCWuPAqA1j>
+Feb 17 16:06:58 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=16328, TLS, session=<J9+VMhmCXOPAqA1j>
+Feb 17 16:09:32 z1 postfix/smtpd[16342]: connect from unknown[192.168.13.99]
+Feb 17 16:09:32 z1 postfix/smtpd[16342]: 6AB82E027C: client=unknown[192.168.13.99]
+Feb 17 16:09:32 z1 postfix/cleanup[16345]: 6AB82E027C: message-id=<d692c7de-fda9-63b1-2574-4cb4177ebe2d@z1.yanah.hier>
+Feb 17 16:09:32 z1 postfix/qmgr[3435]: 6AB82E027C: from=<u1@z1.yanah.hier>, size=610, nrcpt=1 (queue active)
+Feb 17 16:09:32 z1 postfix/smtpd[16342]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 17 16:09:32 z1 postfix/local[16346]: 6AB82E027C: to=<u1@z1.yanah.hier>, orig_to=<everyone@z1.yanah.hier>, relay=local, delay=0.04, delays=0.03/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 16:09:32 z1 postfix/local[16346]: 6AB82E027C: to=<u2@z1.yanah.hier>, orig_to=<everyone@z1.yanah.hier>, relay=local, delay=0.06, delays=0.03/0.01/0/0.03, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 16:09:32 z1 postfix/cleanup[16345]: 74964E02A1: message-id=<d692c7de-fda9-63b1-2574-4cb4177ebe2d@z1.yanah.hier>
+Feb 17 16:09:32 z1 postfix/qmgr[3435]: 74964E02A1: from=<u1@z1.yanah.hier>, size=741, nrcpt=1 (queue active)
+Feb 17 16:09:32 z1 postfix/local[16346]: 6AB82E027C: to=<everyone@z1.yanah.hier>, relay=local, delay=0.07, delays=0.03/0.01/0/0.03, dsn=2.0.0, status=sent (forwarded as 74964E02A1)
+Feb 17 16:09:32 z1 postfix/qmgr[3435]: 6AB82E027C: removed
+Feb 17 16:09:32 z1 dovecot: imap(u1): Connection closed (IDLE running for 0.001 + waiting input for 0.001 secs, 2 B in + 10+10 B out, state=wait-input) in=860 out=2247
+Feb 17 16:09:32 z1 postfix/smtp[16347]: warning: no MX host for z2.yanah.hier has a valid address record
+Feb 17 16:09:32 z1 postfix/smtp[16347]: 74964E02A1: to=<u3@z2.yanah.hier>, orig_to=<everyone@z1.yanah.hier>, relay=none, delay=0.05, delays=0/0.02/0.03/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=dns-z2.z2.yanah.hier.z2.yanah.hier type=AAAA: Host not found)
+Feb 17 16:09:32 z1 postfix/cleanup[16345]: 858CDE02D4: message-id=<20190217160932.858CDE02D4@z1.yanah.hier>
+Feb 17 16:09:32 z1 postfix/qmgr[3435]: 858CDE02D4: from=<>, size=2817, nrcpt=1 (queue active)
+Feb 17 16:09:32 z1 postfix/bounce[16348]: 74964E02A1: sender non-delivery notification: 858CDE02D4
+Feb 17 16:09:32 z1 postfix/qmgr[3435]: 74964E02A1: removed
+Feb 17 16:09:32 z1 postfix/local[16346]: 858CDE02D4: to=<u1@z1.yanah.hier>, relay=local, delay=0.04, delays=0.02/0/0/0.02, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 16:09:32 z1 postfix/qmgr[3435]: 858CDE02D4: removed
+Feb 17 16:09:49 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=16357, TLS, session=<dMHSPBmCYOPAqA1j>
+Feb 17 16:11:33 z1 postfix/smtpd[16368]: connect from unknown[192.168.13.99]
+Feb 17 16:11:33 z1 postfix/smtpd[16368]: 9D6DBE02A1: client=unknown[192.168.13.99]
+Feb 17 16:11:33 z1 postfix/cleanup[16371]: 9D6DBE02A1: message-id=<397b74f9-9310-88bd-264f-ad8652cf61fb@z1.yanah.hier>
+Feb 17 16:11:33 z1 postfix/qmgr[3435]: 9D6DBE02A1: from=<u1@z1.yanah.hier>, size=610, nrcpt=1 (queue active)
+Feb 17 16:11:33 z1 postfix/smtpd[16368]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 17 16:11:33 z1 postfix/local[16372]: 9D6DBE02A1: to=<u1@z1.yanah.hier>, orig_to=<everyone@z1.yanah.hier>, relay=local, delay=0.04, delays=0.03/0/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 16:11:33 z1 postfix/local[16372]: 9D6DBE02A1: to=<u2@z1.yanah.hier>, orig_to=<everyone@z1.yanah.hier>, relay=local, delay=0.06, delays=0.03/0/0/0.03, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 16:11:33 z1 postfix/local[16372]: 9D6DBE02A1: to=<u3@z1.yanah.hier>, orig_to=<everyone@z1.yanah.hier>, relay=local, delay=0.09, delays=0.03/0/0/0.05, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 16:11:33 z1 postfix/qmgr[3435]: 9D6DBE02A1: removed
+Feb 17 16:11:33 z1 dovecot: imap(u1): Connection closed (IDLE running for 0.001 + waiting input for 0.001 secs, 2 B in + 10+10 B out, state=wait-input) in=814 out=1721
+Feb 17 16:11:52 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=16375, TLS, session=<pSkhRBmCZOPAqA1j>
+Feb 17 16:14:53 z1 postfix/anvil[16320]: statistics: max connection rate 1/60s for (smtp:192.168.13.99) at Feb 17 16:06:44
+Feb 17 16:14:53 z1 postfix/anvil[16320]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 17 16:06:44
+Feb 17 16:14:53 z1 postfix/anvil[16320]: statistics: max cache size 1 at Feb 17 16:06:44
+Feb 17 16:36:08 z1 dovecot: imap(u1): Logged out in=534 out=548
+Feb 17 16:54:26 z1 dovecot: imap: Warning: Time jumped forwards 47 seconds
+Feb 17 16:54:26 z1 dovecot: imap: Warning: Time jumped forwards 47 seconds
+Feb 17 16:54:27 z1 dovecot: imap: Warning: Time jumped forwards 48 seconds
+Feb 17 16:54:27 z1 dovecot: message repeated 2 times: [ imap: Warning: Time jumped forwards 48 seconds]
+Feb 17 17:54:34 z1 postfix/postfix-script[16852]: stopping the Postfix mail system
+Feb 17 17:54:34 z1 postfix/master[1217]: terminating on signal 15
+Feb 17 17:54:34 z1 postfix/postfix-script[17007]: starting the Postfix mail system
+Feb 17 17:54:34 z1 postfix/master[17009]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 17:59:27 z1 postfix/smtpd[17052]: connect from unknown[192.168.13.99]
+Feb 17 17:59:27 z1 postfix/smtpd[17052]: NOQUEUE: reject: RCPT from unknown[192.168.13.99]: 454 4.7.1 <u2@z2.yanah.hier>: Relay access denied; from=<u1@z1.yanah.hier> to=<u2@z2.yanah.hier> proto=ESMTP helo=<[192.168.13.99]>
+Feb 17 17:59:33 z1 postfix/smtpd[17052]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=0/1 quit=1 commands=5/6
+Feb 17 17:59:47 z1 postfix/smtpd[17052]: connect from unknown[192.168.13.99]
+Feb 17 17:59:47 z1 postfix/smtpd[17052]: NOQUEUE: reject: RCPT from unknown[192.168.13.99]: 454 4.7.1 <u2@z2.yanah.hier>: Relay access denied; from=<u1@z1.yanah.hier> to=<u2@z2.yanah.hier> proto=ESMTP helo=<[192.168.13.99]>
+Feb 17 17:59:48 z1 postfix/smtpd[17052]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=0/1 quit=1 commands=5/6
+Feb 17 18:03:08 z1 postfix/anvil[17055]: statistics: max connection rate 2/60s for (smtp:192.168.13.99) at Feb 17 17:59:47
+Feb 17 18:03:08 z1 postfix/anvil[17055]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 17 17:59:27
+Feb 17 18:03:08 z1 postfix/anvil[17055]: statistics: max cache size 1 at Feb 17 17:59:27
+Feb 17 18:03:52 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=17078, TLS, session=<MpWn1BqCauPAqA1j>
+Feb 17 18:07:20 z1 postfix/postfix-script[17123]: stopping the Postfix mail system
+Feb 17 18:07:20 z1 postfix/master[17009]: terminating on signal 15
+Feb 17 18:07:20 z1 postfix/postfix-script[17278]: starting the Postfix mail system
+Feb 17 18:07:20 z1 postfix/master[17280]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 18:07:33 z1 postfix/smtpd[17293]: connect from unknown[192.168.13.99]
+Feb 17 18:07:33 z1 postfix/smtpd[17293]: NOQUEUE: reject: RCPT from unknown[192.168.13.99]: 454 4.7.1 <u2@z2.yanah.hier>: Relay access denied; from=<u1@z1.yanah.hier> to=<u2@z2.yanah.hier> proto=ESMTP helo=<[192.168.13.99]>
+Feb 17 18:09:15 z1 postfix/smtpd[17293]: lost connection after RCPT from unknown[192.168.13.99]
+Feb 17 18:09:15 z1 postfix/smtpd[17293]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=0/1 commands=4/5
+Feb 17 18:12:36 z1 postfix/anvil[17296]: statistics: max connection rate 1/60s for (smtp:192.168.13.99) at Feb 17 18:07:33
+Feb 17 18:12:36 z1 postfix/anvil[17296]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 17 18:07:33
+Feb 17 18:12:36 z1 postfix/anvil[17296]: statistics: max cache size 1 at Feb 17 18:07:33
+Feb 17 18:13:48 z1 dovecot: imap(u1): Connection closed (IDLE running for 0.001 + waiting input for 0.001 secs, 2 B in + 10+10 B out, state=wait-input) in=3814 out=13808
+Feb 17 18:13:54 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=17329, TLS, session=<GueQ+BqCbuPAqA1j>
+Feb 17 18:13:59 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=17331, TLS, session=<GVbV+BqCcOPAqA1j>
+Feb 17 18:16:12 z1 postfix/smtpd[17345]: connect from unknown[192.168.13.99]
+Feb 17 18:16:12 z1 postfix/smtpd[17345]: NOQUEUE: reject: RCPT from unknown[192.168.13.99]: 454 4.7.1 <u2@z2.yanah.hier>: Relay access denied; from=<u1@z1.yanah.hier> to=<u2@z2.yanah.hier> proto=ESMTP helo=<[192.168.13.99]>
+Feb 17 18:16:57 z1 postfix/smtpd[17345]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=0/1 quit=1 commands=5/6
+Feb 17 18:20:18 z1 postfix/anvil[17347]: statistics: max connection rate 1/60s for (smtp:192.168.13.99) at Feb 17 18:16:12
+Feb 17 18:20:18 z1 postfix/anvil[17347]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 17 18:16:12
+Feb 17 18:20:18 z1 postfix/anvil[17347]: statistics: max cache size 1 at Feb 17 18:16:12
+Feb 17 18:24:53 z1 postfix/postfix-script[17405]: stopping the Postfix mail system
+Feb 17 18:24:53 z1 postfix/master[17280]: terminating on signal 15
+Feb 17 18:24:53 z1 postfix/postfix-script[17560]: starting the Postfix mail system
+Feb 17 18:24:53 z1 postfix/master[17562]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 18:25:48 z1 postfix/smtpd[17582]: connect from unknown[192.168.13.99]
+Feb 17 18:25:48 z1 postfix/smtpd[17582]: BBED8E09A5: client=unknown[192.168.13.99]
+Feb 17 18:25:48 z1 postfix/cleanup[17587]: BBED8E09A5: message-id=<f24bf0f9-dde0-5269-79dd-77f064f8341c@z1.yanah.hier>
+Feb 17 18:25:48 z1 postfix/qmgr[17573]: BBED8E09A5: from=<u1@z1.yanah.hier>, size=596, nrcpt=1 (queue active)
+Feb 17 18:25:48 z1 postfix/qmgr[17573]: warning: connect to transport private/smpt: No such file or directory
+Feb 17 18:25:48 z1 postfix/smtpd[17582]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 17 18:25:48 z1 postfix/error[17588]: BBED8E09A5: to=<u2@z2.yanah.hier>, relay=none, delay=0.04, delays=0.02/0.01/0/0.01, dsn=4.3.0, status=deferred (mail transport unavailable)
+Feb 17 18:25:49 z1 dovecot: imap(u1): Connection closed (IDLE running for 0.001 + waiting input for 0.001 secs, 2 B in + 10+10 B out, state=wait-input) in=1107 out=3016
+Feb 17 18:26:17 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=17601, TLS, session=<vKLRJBuCduPAqA1j>
+Feb 17 18:27:14 z1 postfix/smtpd[17582]: connect from unknown[192.168.13.99]
+Feb 17 18:27:14 z1 postfix/smtpd[17582]: 1A94FE09DE: client=unknown[192.168.13.99]
+Feb 17 18:27:14 z1 postfix/cleanup[17587]: 1A94FE09DE: message-id=<c3576ac3-a005-fc9c-92de-a934bb7d10e7@z1.yanah.hier>
+Feb 17 18:27:14 z1 postfix/qmgr[17573]: 1A94FE09DE: from=<u1@z1.yanah.hier>, size=598, nrcpt=1 (queue active)
+Feb 17 18:27:14 z1 postfix/qmgr[17573]: warning: connect to transport private/smpt: No such file or directory
+Feb 17 18:27:14 z1 postfix/error[17588]: 1A94FE09DE: to=<u2@z2.yanah.hier>, relay=none, delay=0.02, delays=0.02/0/0/0, dsn=4.3.0, status=deferred (mail transport unavailable)
+Feb 17 18:27:14 z1 postfix/smtpd[17582]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 17 18:27:14 z1 dovecot: imap(u1): Connection closed (IDLE running for 0.001 + waiting input for 0.006 secs, 2 B in + 10 B out, state=wait-input) in=758 out=1609
+Feb 17 18:27:40 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=17609, TLS, session=<lIPOKRuCeuPAqA1j>
+Feb 17 18:30:34 z1 postfix/anvil[17585]: statistics: max connection rate 1/60s for (smtp:192.168.13.99) at Feb 17 18:25:48
+Feb 17 18:30:34 z1 postfix/anvil[17585]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 17 18:25:48
+Feb 17 18:30:34 z1 postfix/anvil[17585]: statistics: max cache size 1 at Feb 17 18:25:48
+Feb 17 18:31:31 z1 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=17632, TLS, session=<46yJNxuCfuPAqA1j>
+Feb 17 18:31:40 z1 dovecot: imap(u1): Logged out in=403 out=2008
+Feb 17 18:31:40 z1 dovecot: imap(u3): Logged out in=10176 out=46533
+Feb 17 18:31:40 z1 dovecot: imap(yanah): Logged out in=7465 out=30302
+Feb 17 18:31:40 z1 dovecot: imap(u1): Logged out in=16624 out=69602
+Feb 17 18:31:40 z1 dovecot: imap(u1): Logged out in=813 out=7024
+Feb 17 18:31:40 z1 dovecot: imap(u1): Logged out in=2966 out=7561
+Feb 17 18:31:40 z1 dovecot: imap(u2): Logged out in=16371 out=65578
+Feb 17 18:31:40 z1 dovecot: imap(u2): Logged out in=306 out=2419
+Feb 17 18:32:31 z1 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Feb 17 18:32:32 z1 postfix/postfix-script[1218]: starting the Postfix mail system
+Feb 17 18:32:32 z1 postfix/master[1223]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 18:32:32 z1 postfix/qmgr[1229]: 1A94FE09DE: from=<u1@z1.yanah.hier>, size=598, nrcpt=1 (queue active)
+Feb 17 18:32:32 z1 postfix/qmgr[1229]: warning: connect to transport private/smpt: No such file or directory
+Feb 17 18:32:32 z1 postfix/qmgr[1229]: BBED8E09A5: from=<u1@z1.yanah.hier>, size=596, nrcpt=1 (queue active)
+Feb 17 18:32:32 z1 postfix/error[1239]: 1A94FE09DE: to=<u2@z2.yanah.hier>, relay=none, delay=319, delays=319/0.06/0/0.03, dsn=4.3.0, status=deferred (mail transport unavailable)
+Feb 17 18:32:32 z1 postfix/error[1241]: BBED8E09A5: to=<u2@z2.yanah.hier>, relay=none, delay=404, delays=404/0.03/0/0.01, dsn=4.3.0, status=deferred (mail transport unavailable)
+Feb 17 18:34:22 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=1542, TLS, session=<wxvDQRuCYMTAqA1j>
+Feb 17 18:34:22 z1 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=1543, TLS, session=<WVHDQRuCYsTAqA1j>
+Feb 17 18:34:24 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=1545, TLS, session=<kKbiQRuCZMTAqA1j>
+Feb 17 18:34:24 z1 dovecot: imap-login: Login: user=<yanah>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=1546, TLS, session=<Vr3iQRuCZsTAqA1j>
+Feb 17 18:35:05 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=1552, TLS, session=<iB1TRBuCesTAqA1j>
+Feb 17 18:35:05 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=1554, TLS, session=<5FVZRBuCfMTAqA1j>
+Feb 17 18:35:06 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=1556, TLS, session=<swFfRBuCfsTAqA1j>
+Feb 17 18:42:32 z1 postfix/qmgr[1229]: 1A94FE09DE: from=<u1@z1.yanah.hier>, size=598, nrcpt=1 (queue active)
+Feb 17 18:42:32 z1 postfix/qmgr[1229]: warning: connect to transport private/smpt: No such file or directory
+Feb 17 18:42:32 z1 postfix/qmgr[1229]: BBED8E09A5: from=<u1@z1.yanah.hier>, size=596, nrcpt=1 (queue active)
+Feb 17 18:42:32 z1 postfix/error[1594]: 1A94FE09DE: to=<u2@z2.yanah.hier>, relay=none, delay=918, delays=918/0.03/0/0.01, dsn=4.3.0, status=deferred (mail transport unavailable)
+Feb 17 18:42:32 z1 postfix/error[1595]: BBED8E09A5: to=<u2@z2.yanah.hier>, relay=none, delay=1003, delays=1003/0.02/0/0, dsn=4.3.0, status=deferred (mail transport unavailable)
+Feb 17 18:47:16 z1 postfix/smtpd[1626]: connect from unknown[192.168.13.99]
+Feb 17 18:47:16 z1 postfix/smtpd[1626]: 85415E004B: client=unknown[192.168.13.99]
+Feb 17 18:47:16 z1 postfix/cleanup[1631]: 85415E004B: message-id=<e620db0c-99dc-54f4-0b49-e3403ff8b361@z1.yanah.hier>
+Feb 17 18:47:16 z1 postfix/qmgr[1229]: 85415E004B: from=<u1@z1.yanah.hier>, size=593, nrcpt=1 (queue active)
+Feb 17 18:47:16 z1 postfix/qmgr[1229]: warning: connect to transport private/smpt: No such file or directory
+Feb 17 18:47:16 z1 postfix/smtpd[1626]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 17 18:47:16 z1 postfix/error[1632]: 85415E004B: to=<u2@z2.yanah.hier>, relay=none, delay=0.04, delays=0.02/0.01/0/0.01, dsn=4.3.0, status=deferred (mail transport unavailable)
+Feb 17 18:47:16 z1 dovecot: imap(u1): Logged out in=608 out=768
+Feb 17 18:47:38 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=1658, TLS, session=<Kic4cRuCjsTAqA1j>
+Feb 17 18:50:36 z1 postfix/anvil[1629]: statistics: max connection rate 1/60s for (smtp:192.168.13.99) at Feb 17 18:47:16
+Feb 17 18:50:36 z1 postfix/anvil[1629]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 17 18:47:16
+Feb 17 18:50:36 z1 postfix/anvil[1629]: statistics: max cache size 1 at Feb 17 18:47:16
+Feb 17 18:51:26 z1 postfix/postfix-script[1702]: stopping the Postfix mail system
+Feb 17 18:51:26 z1 postfix/master[1223]: terminating on signal 15
+Feb 17 18:51:26 z1 postfix/postfix-script[1857]: starting the Postfix mail system
+Feb 17 18:51:26 z1 postfix/master[1859]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 18:51:52 z1 postfix/smtpd[1873]: connect from unknown[192.168.13.99]
+Feb 17 18:51:52 z1 postfix/smtpd[1873]: 10BE8E0A4F: client=unknown[192.168.13.99]
+Feb 17 18:51:52 z1 postfix/cleanup[1878]: 10BE8E0A4F: message-id=<c462b212-562d-b514-db1c-1e214518eca7@z1.yanah.hier>
+Feb 17 18:51:52 z1 postfix/qmgr[1870]: 10BE8E0A4F: from=<u1@z1.yanah.hier>, size=594, nrcpt=1 (queue active)
+Feb 17 18:51:52 z1 postfix/qmgr[1870]: warning: connect to transport private/smpt: No such file or directory
+Feb 17 18:51:52 z1 postfix/smtpd[1873]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 17 18:51:52 z1 postfix/error[1879]: 10BE8E0A4F: to=<u2@z2.yanah.hier>, relay=none, delay=0.03, delays=0.01/0.01/0/0.01, dsn=4.3.0, status=deferred (mail transport unavailable)
+Feb 17 18:51:52 z1 dovecot: imap(u1): Connection closed (IDLE running for 0.001 + waiting input for 0.001 secs, 2 B in + 10+10 B out, state=wait-input) in=854 out=2126
+Feb 17 18:52:08 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=1889, TLS, session=<u/5GgRuCksTAqA1j>
+Feb 17 18:55:12 z1 postfix/anvil[1876]: statistics: max connection rate 1/60s for (smtp:192.168.13.99) at Feb 17 18:51:52
+Feb 17 18:55:12 z1 postfix/anvil[1876]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 17 18:51:52
+Feb 17 18:55:12 z1 postfix/anvil[1876]: statistics: max cache size 1 at Feb 17 18:51:52
+Feb 17 18:56:27 z1 postfix/qmgr[1870]: 85415E004B: from=<u1@z1.yanah.hier>, size=593, nrcpt=1 (queue active)
+Feb 17 18:56:27 z1 postfix/qmgr[1870]: warning: connect to transport private/smpt: No such file or directory
+Feb 17 18:56:27 z1 postfix/error[1908]: 85415E004B: to=<u2@z2.yanah.hier>, relay=none, delay=551, delays=551/0.03/0/0.01, dsn=4.3.0, status=deferred (mail transport unavailable)
+Feb 17 19:01:21 z1 postfix/postfix-script[1955]: stopping the Postfix mail system
+Feb 17 19:01:21 z1 postfix/master[1859]: terminating on signal 15
+Feb 17 19:01:21 z1 postfix/postfix-script[2110]: starting the Postfix mail system
+Feb 17 19:01:21 z1 postfix/master[2112]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 19:01:21 z1 postfix/qmgr[2123]: 1A94FE09DE: from=<u1@z1.yanah.hier>, size=598, nrcpt=1 (queue active)
+Feb 17 19:01:21 z1 postfix/qmgr[2123]: 10BE8E0A4F: from=<u1@z1.yanah.hier>, size=594, nrcpt=1 (queue active)
+Feb 17 19:01:21 z1 postfix/qmgr[2123]: BBED8E09A5: from=<u1@z1.yanah.hier>, size=596, nrcpt=1 (queue active)
+Feb 17 19:01:24 z1 postfix/smtp[2126]: connect to 192.168.12.103[192.168.12.103]:25: No route to host
+Feb 17 19:01:24 z1 postfix/smtp[2127]: connect to 192.168.12.103[192.168.12.103]:25: No route to host
+Feb 17 19:01:24 z1 postfix/smtp[2128]: connect to 192.168.12.103[192.168.12.103]:25: No route to host
+Feb 17 19:01:24 z1 postfix/smtp[2126]: 1A94FE09DE: to=<u2@z2.yanah.hier>, relay=none, delay=2051, delays=2048/0.01/3/0, dsn=4.4.1, status=deferred (connect to 192.168.12.103[192.168.12.103]:25: No route to host)
+Feb 17 19:01:24 z1 postfix/smtp[2127]: 10BE8E0A4F: to=<u2@z2.yanah.hier>, relay=none, delay=573, delays=570/0.01/3/0, dsn=4.4.1, status=deferred (connect to 192.168.12.103[192.168.12.103]:25: No route to host)
+Feb 17 19:01:24 z1 postfix/smtp[2128]: BBED8E09A5: to=<u2@z2.yanah.hier>, relay=none, delay=2136, delays=2133/0.02/3/0, dsn=4.4.1, status=deferred (connect to 192.168.12.103[192.168.12.103]:25: No route to host)
+Feb 17 19:02:04 z1 postfix/smtpd[2138]: connect from unknown[192.168.13.99]
+Feb 17 19:02:04 z1 postfix/smtpd[2138]: 49137E0ADA: client=unknown[192.168.13.99]
+Feb 17 19:02:04 z1 postfix/cleanup[2142]: 49137E0ADA: message-id=<ac449174-8a1b-425c-4dcb-54fd7fe2a870@z1.yanah.hier>
+Feb 17 19:02:04 z1 postfix/qmgr[2123]: 49137E0ADA: from=<u1@z1.yanah.hier>, size=589, nrcpt=1 (queue active)
+Feb 17 19:02:04 z1 postfix/error[2143]: 49137E0ADA: to=<u2@z2.yanah.hier>, relay=none, delay=0.02, delays=0.01/0.01/0/0, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to 192.168.12.103[192.168.12.103]:25: No route to host)
+Feb 17 19:02:04 z1 postfix/smtpd[2138]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 17 19:02:04 z1 dovecot: imap(u1): Connection closed (IDLE running for 0.001 + waiting input for 0.001 secs, 2 B in + 10+10 B out, state=wait-input) in=949 out=2543
+Feb 17 19:02:21 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=2148, TLS, session=<UyDWpRuClsTAqA1j>
+Feb 17 19:05:24 z1 postfix/anvil[2141]: statistics: max connection rate 1/60s for (smtp:192.168.13.99) at Feb 17 19:02:04
+Feb 17 19:05:24 z1 postfix/anvil[2141]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 17 19:02:04
+Feb 17 19:05:24 z1 postfix/anvil[2141]: statistics: max cache size 1 at Feb 17 19:02:04
+Feb 17 19:05:56 z1 postfix/smtpd[2165]: connect from unknown[192.168.12.100]
+Feb 17 19:05:56 z1 postfix/smtpd[2165]: 4F6EFE0AE0: client=unknown[192.168.12.100]
+Feb 17 19:05:56 z1 postfix/cleanup[2169]: 4F6EFE0AE0: message-id=<8eec6a86-7b37-6c5c-00df-eeb93ab81330@z2.yanah.hier>
+Feb 17 19:05:56 z1 postfix/qmgr[2123]: 4F6EFE0AE0: from=<u1@z2.yanah.hier>, size=757, nrcpt=1 (queue active)
+Feb 17 19:05:56 z1 postfix/smtpd[2165]: disconnect from unknown[192.168.12.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 17 19:05:56 z1 postfix/local[2170]: 4F6EFE0AE0: to=<u2@z1.yanah.hier>, relay=local, delay=0.04, delays=0.01/0.01/0/0.02, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 19:05:56 z1 postfix/qmgr[2123]: 4F6EFE0AE0: removed
+Feb 17 19:06:21 z1 postfix/qmgr[2123]: 85415E004B: from=<u1@z1.yanah.hier>, size=593, nrcpt=1 (queue active)
+Feb 17 19:06:21 z1 postfix/error[2175]: 85415E004B: to=<u2@z2.yanah.hier>, relay=none, delay=1145, delays=1145/0.02/0/0.02, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to 192.168.12.103[192.168.12.103]:25: No route to host)
+Feb 17 19:07:45 z1 postfix/postfix-script[2203]: stopping the Postfix mail system
+Feb 17 19:07:45 z1 postfix/master[2112]: terminating on signal 15
+Feb 17 19:07:45 z1 postfix/postfix-script[2358]: starting the Postfix mail system
+Feb 17 19:07:45 z1 postfix/master[2360]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 19:07:45 z1 postfix/qmgr[2370]: 49137E0ADA: from=<u1@z1.yanah.hier>, size=589, nrcpt=1 (queue active)
+Feb 17 19:07:48 z1 postfix/smtp[2374]: connect to 192.168.12.103[192.168.12.103]:25: No route to host
+Feb 17 19:07:48 z1 postfix/smtp[2374]: 49137E0ADA: to=<u2@z2.yanah.hier>, relay=none, delay=344, delays=341/0.01/3/0, dsn=4.4.1, status=deferred (connect to 192.168.12.103[192.168.12.103]:25: No route to host)
+Feb 17 19:10:56 z1 postfix/smtpd[2391]: connect from unknown[192.168.12.100]
+Feb 17 19:10:56 z1 postfix/smtpd[2391]: 840ADE0AE0: client=unknown[192.168.12.100]
+Feb 17 19:10:56 z1 postfix/cleanup[2396]: 840ADE0AE0: message-id=<d861e9d5-6e99-1890-b4a1-c82c2430d992@z2.yanah.hier>
+Feb 17 19:10:56 z1 postfix/qmgr[2370]: 840ADE0AE0: from=<u1@z2.yanah.hier>, size=752, nrcpt=1 (queue active)
+Feb 17 19:10:56 z1 postfix/smtpd[2391]: disconnect from unknown[192.168.12.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 17 19:10:56 z1 postfix/local[2397]: 840ADE0AE0: to=<u2@z1.yanah.hier>, relay=local, delay=0.03, delays=0.01/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 19:10:56 z1 postfix/qmgr[2370]: 840ADE0AE0: removed
+Feb 17 19:12:45 z1 postfix/qmgr[2370]: 10BE8E0A4F: from=<u1@z1.yanah.hier>, size=594, nrcpt=1 (queue active)
+Feb 17 19:12:48 z1 postfix/smtp[2407]: connect to 192.168.12.103[192.168.12.103]:25: No route to host
+Feb 17 19:12:48 z1 postfix/smtp[2407]: 10BE8E0A4F: to=<u2@z2.yanah.hier>, relay=none, delay=1257, delays=1254/0.03/3/0, dsn=4.4.1, status=deferred (connect to 192.168.12.103[192.168.12.103]:25: No route to host)
+Feb 17 19:14:16 z1 postfix/anvil[2394]: statistics: max connection rate 1/60s for (smtp:192.168.12.100) at Feb 17 19:10:56
+Feb 17 19:14:16 z1 postfix/anvil[2394]: statistics: max connection count 1 for (smtp:192.168.12.100) at Feb 17 19:10:56
+Feb 17 19:14:16 z1 postfix/anvil[2394]: statistics: max cache size 1 at Feb 17 19:10:56
+Feb 17 19:17:45 z1 postfix/qmgr[2370]: 49137E0ADA: from=<u1@z1.yanah.hier>, size=589, nrcpt=1 (queue active)
+Feb 17 19:17:48 z1 postfix/smtp[2436]: connect to 192.168.12.103[192.168.12.103]:25: No route to host
+Feb 17 19:17:48 z1 postfix/smtp[2436]: 49137E0ADA: to=<u2@z2.yanah.hier>, relay=none, delay=945, delays=941/0.03/3/0, dsn=4.4.1, status=deferred (connect to 192.168.12.103[192.168.12.103]:25: No route to host)
+Feb 17 19:27:45 z1 postfix/qmgr[2370]: 85415E004B: from=<u1@z1.yanah.hier>, size=593, nrcpt=1 (queue active)
+Feb 17 19:27:48 z1 postfix/smtp[2542]: connect to 192.168.12.103[192.168.12.103]:25: No route to host
+Feb 17 19:27:48 z1 postfix/smtp[2542]: 85415E004B: to=<u2@z2.yanah.hier>, relay=none, delay=2432, delays=2429/0.03/3/0, dsn=4.4.1, status=deferred (connect to 192.168.12.103[192.168.12.103]:25: No route to host)
+Feb 17 19:32:08 z1 dovecot: imap(u3): Logged out in=364 out=1108
+Feb 17 19:37:45 z1 postfix/qmgr[2370]: 1A94FE09DE: from=<u1@z1.yanah.hier>, size=598, nrcpt=1 (queue active)
+Feb 17 19:37:45 z1 postfix/qmgr[2370]: 10BE8E0A4F: from=<u1@z1.yanah.hier>, size=594, nrcpt=1 (queue active)
+Feb 17 19:37:45 z1 postfix/qmgr[2370]: 49137E0ADA: from=<u1@z1.yanah.hier>, size=589, nrcpt=1 (queue active)
+Feb 17 19:37:45 z1 postfix/qmgr[2370]: BBED8E09A5: from=<u1@z1.yanah.hier>, size=596, nrcpt=1 (queue active)
+Feb 17 19:37:48 z1 postfix/smtp[2595]: connect to 192.168.12.103[192.168.12.103]:25: No route to host
+Feb 17 19:37:48 z1 postfix/smtp[2597]: connect to 192.168.12.103[192.168.12.103]:25: No route to host
+Feb 17 19:37:48 z1 postfix/smtp[2596]: connect to 192.168.12.103[192.168.12.103]:25: No route to host
+Feb 17 19:37:48 z1 postfix/smtp[2598]: connect to 192.168.12.103[192.168.12.103]:25: No route to host
+Feb 17 19:37:48 z1 postfix/smtp[2597]: 49137E0ADA: to=<u2@z2.yanah.hier>, relay=none, delay=2144, delays=2141/0.03/3/0, dsn=4.4.1, status=deferred (connect to 192.168.12.103[192.168.12.103]:25: No route to host)
+Feb 17 19:37:48 z1 postfix/smtp[2595]: 1A94FE09DE: to=<u2@z2.yanah.hier>, relay=none, delay=4235, delays=4231/0.03/3/0, dsn=4.4.1, status=deferred (connect to 192.168.12.103[192.168.12.103]:25: No route to host)
+Feb 17 19:37:48 z1 postfix/smtp[2596]: 10BE8E0A4F: to=<u2@z2.yanah.hier>, relay=none, delay=2757, delays=2754/0.02/3/0, dsn=4.4.1, status=deferred (connect to 192.168.12.103[192.168.12.103]:25: No route to host)
+Feb 17 19:37:48 z1 postfix/smtp[2598]: BBED8E09A5: to=<u2@z2.yanah.hier>, relay=none, delay=4320, delays=4317/0.03/3/0, dsn=4.4.1, status=deferred (connect to 192.168.12.103[192.168.12.103]:25: No route to host)
+Feb 17 20:07:23 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=2810, TLS, session=<Sl1hjhyCmMTAqA1j>
+Feb 17 20:09:08 z1 postfix/smtpd[2820]: connect from unknown[192.168.13.99]
+Feb 17 20:09:08 z1 postfix/smtpd[2820]: 61F88E0AE0: client=unknown[192.168.13.99]
+Feb 17 20:09:08 z1 postfix/cleanup[2824]: 61F88E0AE0: message-id=<e9941017-70e9-1868-640b-0e439e0d4700@z1.yanah.hier>
+Feb 17 20:09:08 z1 postfix/qmgr[2370]: 61F88E0AE0: from=<u1@z1.yanah.hier>, size=583, nrcpt=1 (queue active)
+Feb 17 20:09:08 z1 postfix/smtpd[2820]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 17 20:09:08 z1 dovecot: imap(u1): Connection closed (IDLE running for 0.001 + waiting input for 0.001 secs, 2 B in + 10+10 B out, state=wait-input) in=2443 out=8592
+Feb 17 20:09:08 z1 postfix/smtp[2825]: 61F88E0AE0: to=<u2@z2.yanah.hier>, relay=192.168.12.103[192.168.12.103]:25, delay=0.19, delays=0.01/0.01/0.14/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 8D4D91013B2)
+Feb 17 20:09:08 z1 postfix/qmgr[2370]: 61F88E0AE0: removed
+Feb 17 20:09:36 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=2830, TLS, session=<FetUlhyCnsTAqA1j>
+Feb 17 20:12:26 z1 postfix/smtpd[2843]: connect from dns-z2.z2.yanah.hier[192.168.12.100]
+Feb 17 20:12:26 z1 postfix/smtpd[2843]: A7360E0AE0: client=dns-z2.z2.yanah.hier[192.168.12.100]
+Feb 17 20:12:26 z1 postfix/cleanup[2846]: A7360E0AE0: message-id=<12270e44-98d4-4f5c-c11a-21f49cd23b6c@z2.yanah.hier>
+Feb 17 20:12:26 z1 postfix/qmgr[2370]: A7360E0AE0: from=<u1@z2.yanah.hier>, size=780, nrcpt=1 (queue active)
+Feb 17 20:12:26 z1 postfix/smtpd[2843]: disconnect from dns-z2.z2.yanah.hier[192.168.12.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 17 20:12:26 z1 postfix/local[2847]: A7360E0AE0: to=<u2@z1.yanah.hier>, relay=local, delay=0.01, delays=0.01/0/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 20:12:26 z1 postfix/qmgr[2370]: A7360E0AE0: removed
+Feb 17 20:12:45 z1 postfix/qmgr[2370]: 85415E004B: from=<u1@z1.yanah.hier>, size=593, nrcpt=1 (queue active)
+Feb 17 20:12:45 z1 postfix/smtp[2848]: 85415E004B: to=<u2@z2.yanah.hier>, relay=192.168.12.103[192.168.12.103]:25, delay=5129, delays=5129/0.01/0.05/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as B93541019E4)
+Feb 17 20:12:45 z1 postfix/qmgr[2370]: 85415E004B: removed
+Feb 17 20:15:46 z1 postfix/anvil[2822]: statistics: max connection rate 1/60s for (smtp:192.168.13.99) at Feb 17 20:09:08
+Feb 17 20:15:46 z1 postfix/anvil[2822]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 17 20:09:08
+Feb 17 20:15:46 z1 postfix/anvil[2822]: statistics: max cache size 1 at Feb 17 20:09:08
+Feb 17 20:17:45 z1 postfix/qmgr[2370]: 49137E0ADA: from=<u1@z1.yanah.hier>, size=589, nrcpt=1 (queue active)
+Feb 17 20:17:45 z1 postfix/smtp[2875]: 49137E0ADA: to=<u2@z2.yanah.hier>, relay=192.168.12.103[192.168.12.103]:25, delay=4541, delays=4541/0.02/0.08/0.04, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 23D531019E4)
+Feb 17 20:17:45 z1 postfix/qmgr[2370]: 49137E0ADA: removed
+Feb 17 20:27:45 z1 postfix/qmgr[2370]: 10BE8E0A4F: from=<u1@z1.yanah.hier>, size=594, nrcpt=1 (queue active)
+Feb 17 20:27:46 z1 postfix/smtp[2926]: 10BE8E0A4F: to=<u2@z2.yanah.hier>, relay=192.168.12.103[192.168.12.103]:25, delay=5754, delays=5753/0.03/0.88/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 4DFBF10125E)
+Feb 17 20:27:46 z1 postfix/qmgr[2370]: 10BE8E0A4F: removed
+Feb 17 20:37:23 z1 dovecot: imap(u3): Disconnected for inactivity in=150 out=654
+Feb 17 20:42:23 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=2993, TLS, session=<zt+TCx2CyMTAqA1j>
+Feb 17 20:47:45 z1 postfix/qmgr[2370]: 1A94FE09DE: from=<u1@z1.yanah.hier>, size=598, nrcpt=1 (queue active)
+Feb 17 20:47:45 z1 postfix/qmgr[2370]: BBED8E09A5: from=<u1@z1.yanah.hier>, size=596, nrcpt=1 (queue active)
+Feb 17 20:47:45 z1 postfix/smtp[3016]: 1A94FE09DE: to=<u2@z2.yanah.hier>, relay=192.168.12.103[192.168.12.103]:25, delay=8431, delays=8431/0.04/0.1/0.04, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 5984A101248)
+Feb 17 20:47:45 z1 postfix/qmgr[2370]: 1A94FE09DE: removed
+Feb 17 20:47:45 z1 postfix/smtp[3017]: BBED8E09A5: to=<u2@z2.yanah.hier>, relay=192.168.12.103[192.168.12.103]:25, delay=8517, delays=8516/0.03/0.09/0.04, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 5AF7310125E)
+Feb 17 20:47:45 z1 postfix/qmgr[2370]: BBED8E09A5: removed
+Feb 17 21:12:09 z1 dovecot: imap(u3): Logged out in=158 out=674
+Feb 18 15:20:59 z1 dovecot: imap: Warning: Time jumped forwards 65180 seconds
+Feb 18 15:20:59 z1 dovecot: imap: Warning: Time jumped forwards 65180 seconds
+Feb 18 15:21:02 z1 dovecot: imap: Warning: Time jumped forwards 65183 seconds
+Feb 18 15:21:02 z1 dovecot: message repeated 3 times: [ imap: Warning: Time jumped forwards 65183 seconds]
+Feb 18 15:29:06 z1 dovecot: imap(yanah): Logged out in=5403 out=21794
+Feb 18 15:29:06 z1 dovecot: imap(u1): Logged out in=2209 out=9443
+Feb 18 15:29:06 z1 dovecot: imap(u1): Logged out in=2195 out=11759
+Feb 18 15:29:06 z1 dovecot: imap(u1): Logged out in=5455 out=22038
+Feb 18 15:29:07 z1 dovecot: imap(u3): Logged out in=5402 out=21731
+Feb 18 15:29:07 z1 dovecot: imap(u2): Logged out in=6970 out=29249
+Feb 18 15:29:07 z1 dovecot: imap-login: Login: user=<yanah>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=3796, TLS, session=<oocRySyCyMbAqA1j>
+Feb 18 15:29:07 z1 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=3797, TLS, session=<uIYRySyCysbAqA1j>
+Feb 18 15:29:07 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=3798, TLS, session=<fucRySyCzMbAqA1j>
+Feb 18 15:29:07 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=3799, TLS, session=<OqESySyCzsbAqA1j>
+Feb 18 15:37:54 z1 postfix/flush[3839]: warning: /etc/postfix/main.cf, line 53: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:37:54 z1 postfix/flush[3839]: fatal: /etc/postfix/main.cf, line 54: missing '=' after attribute name: "reject_unauth_destination"
+Feb 18 15:37:55 z1 postfix/master[2360]: warning: process /usr/lib/postfix/sbin/flush pid 3839 exit status 1
+Feb 18 15:37:55 z1 postfix/master[2360]: warning: /usr/lib/postfix/sbin/flush: bad command startup -- throttling
+Feb 18 15:38:55 z1 postfix/flush[3844]: warning: /etc/postfix/main.cf, line 53: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:38:55 z1 postfix/flush[3844]: fatal: /etc/postfix/main.cf, line 54: missing '=' after attribute name: "reject_unauth_destination"
+Feb 18 15:38:56 z1 postfix/master[2360]: warning: process /usr/lib/postfix/sbin/flush pid 3844 exit status 1
+Feb 18 15:38:56 z1 postfix/master[2360]: warning: /usr/lib/postfix/sbin/flush: bad command startup -- throttling
+Feb 18 15:39:35 z1 postfix/master[2360]: warning: unix_trigger_event: read timeout for service public/flush
+Feb 18 15:39:56 z1 postfix/flush[3849]: warning: /etc/postfix/main.cf, line 53: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:39:56 z1 postfix/flush[3849]: fatal: /etc/postfix/main.cf, line 54: missing '=' after attribute name: "reject_unauth_destination"
+Feb 18 15:39:57 z1 postfix/master[2360]: warning: process /usr/lib/postfix/sbin/flush pid 3849 exit status 1
+Feb 18 15:39:57 z1 postfix/master[2360]: warning: /usr/lib/postfix/sbin/flush: bad command startup -- throttling
+Feb 18 15:40:57 z1 postfix/flush[3856]: warning: /etc/postfix/main.cf, line 53: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:40:57 z1 postfix/flush[3856]: fatal: /etc/postfix/main.cf, line 54: missing '=' after attribute name: "reject_unauth_destination"
+Feb 18 15:40:58 z1 postfix/master[2360]: warning: process /usr/lib/postfix/sbin/flush pid 3856 exit status 1
+Feb 18 15:40:58 z1 postfix/master[2360]: warning: /usr/lib/postfix/sbin/flush: bad command startup -- throttling
+Feb 18 15:41:58 z1 postfix/flush[3861]: warning: /etc/postfix/main.cf, line 53: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:41:58 z1 postfix/flush[3861]: fatal: /etc/postfix/main.cf, line 54: missing '=' after attribute name: "reject_unauth_destination"
+Feb 18 15:41:59 z1 postfix/master[2360]: warning: process /usr/lib/postfix/sbin/flush pid 3861 exit status 1
+Feb 18 15:41:59 z1 postfix/master[2360]: warning: /usr/lib/postfix/sbin/flush: bad command startup -- throttling
+Feb 18 15:42:59 z1 postfix/flush[3867]: warning: /etc/postfix/main.cf, line 53: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:42:59 z1 postfix/flush[3867]: fatal: /etc/postfix/main.cf, line 54: missing '=' after attribute name: "reject_unauth_destination"
+Feb 18 15:43:00 z1 postfix/master[2360]: warning: process /usr/lib/postfix/sbin/flush pid 3867 exit status 1
+Feb 18 15:43:00 z1 postfix/master[2360]: warning: /usr/lib/postfix/sbin/flush: bad command startup -- throttling
+Feb 18 15:43:21 z1 postmulti[3875]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 15:43:21 z1 postmulti[3875]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:43:21 z1 postfix[3876]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 15:43:21 z1 postfix[3876]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:43:21 z1 postfix/master[3881]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 15:43:21 z1 postfix/master[3881]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:43:21 z1 postfix/postlog[3882]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 15:43:21 z1 postfix/postlog[3882]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:43:21 z1 postfix/postfix-script[3882]: stopping the Postfix mail system
+Feb 18 15:43:21 z1 postfix/master[2360]: terminating on signal 15
+Feb 18 15:43:21 z1 postfix/master[3884]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 15:43:21 z1 postfix/master[3884]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:43:21 z1 postmulti[3940]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 15:43:21 z1 postmulti[3940]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:43:21 z1 postfix[3941]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 15:43:21 z1 postfix[3941]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:43:21 z1 postfix/master[3946]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 15:43:21 z1 postfix/master[3946]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:43:21 z1 postfix/postsuper[3985]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 15:43:21 z1 postfix/postsuper[3985]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:43:21 z1 postfix/postlog[4037]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 15:43:21 z1 postfix/postlog[4037]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:43:21 z1 postfix/postfix-script[4037]: starting the Postfix mail system
+Feb 18 15:43:21 z1 postfix/master[4039]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 15:43:21 z1 postfix/master[4039]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:43:21 z1 postfix/master[4039]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 18 15:43:22 z1 postfix/qmgr[4042]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 15:43:22 z1 postfix/qmgr[4042]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:43:22 z1 postfix/pickup[4041]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 15:43:22 z1 postfix/pickup[4041]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:43:30 z1 dovecot: master: Warning: Killed with signal 15 (by pid=4052 uid=0 code=kill)
+Feb 18 15:43:30 z1 dovecot: imap(u3): Server shutting down. in=498 out=2449
+Feb 18 15:43:30 z1 dovecot: imap(u2): Server shutting down. in=498 out=2515
+Feb 18 15:43:30 z1 dovecot: imap(u1): Server shutting down. in=498 out=2515
+Feb 18 15:43:30 z1 dovecot: imap(yanah): Server shutting down. in=498 out=2515
+Feb 18 15:44:41 z1 postfix/smtpd[4074]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 15:44:41 z1 postfix/smtpd[4074]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:44:41 z1 postfix/proxymap[4075]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 15:44:41 z1 postfix/proxymap[4075]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:44:41 z1 postfix/tlsmgr[4076]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 15:44:41 z1 postfix/tlsmgr[4076]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:44:41 z1 postfix/smtpd[4074]: connect from z1.yanah.hier[192.168.11.100]
+Feb 18 15:44:41 z1 postfix/anvil[4077]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 15:44:41 z1 postfix/anvil[4077]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:44:41 z1 postfix/smtpd[4074]: warning: SASL: Connect to private/auth failed: No such file or directory
+Feb 18 15:44:41 z1 postfix/smtpd[4074]: fatal: no SASL authentication mechanisms
+Feb 18 15:44:42 z1 postfix/master[4039]: warning: process /usr/lib/postfix/sbin/smtpd pid 4074 exit status 1
+Feb 18 15:44:42 z1 postfix/master[4039]: warning: /usr/lib/postfix/sbin/smtpd: bad command startup -- throttling
+Feb 18 15:45:45 z1 postfix/smtpd[4083]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 15:45:45 z1 postfix/smtpd[4083]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 15:45:45 z1 postfix/smtpd[4083]: connect from z1.yanah.hier[192.168.11.100]
+Feb 18 15:45:45 z1 postfix/smtpd[4083]: warning: SASL: Connect to private/auth failed: No such file or directory
+Feb 18 15:45:45 z1 postfix/smtpd[4083]: fatal: no SASL authentication mechanisms
+Feb 18 15:45:46 z1 postfix/master[4039]: warning: process /usr/lib/postfix/sbin/smtpd pid 4083 exit status 1
+Feb 18 15:45:46 z1 postfix/master[4039]: warning: /usr/lib/postfix/sbin/smtpd: bad command startup -- throttling
+Feb 18 15:47:26 z1 postfix/anvil[4077]: statistics: max connection rate 1/60s for (smtp:192.168.11.100) at Feb 18 15:44:41
+Feb 18 15:47:26 z1 postfix/anvil[4077]: statistics: max connection count 1 for (smtp:192.168.11.100) at Feb 18 15:44:41
+Feb 18 15:47:26 z1 postfix/anvil[4077]: statistics: max cache size 1 at Feb 18 15:44:41
+Feb 18 16:11:45 z1 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Feb 18 16:12:01 z1 postfix/smtpd[4303]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:12:01 z1 postfix/smtpd[4303]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:12:01 z1 postfix/proxymap[4304]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:12:01 z1 postfix/proxymap[4304]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:12:01 z1 postfix/smtpd[4303]: connect from z1.yanah.hier[192.168.11.100]
+Feb 18 16:12:01 z1 postfix/anvil[4305]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:12:01 z1 postfix/anvil[4305]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:17:58 z1 postfix/smtpd[4303]: timeout after EHLO from z1.yanah.hier[192.168.11.100]
+Feb 18 16:17:58 z1 postfix/smtpd[4303]: disconnect from z1.yanah.hier[192.168.11.100] ehlo=1 commands=1
+Feb 18 16:18:19 z1 dovecot: imap-login: Login: user=<yanah>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=4339, TLS, session=<itsFeS2CKMfAqA1j>
+Feb 18 16:18:37 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=4342, TLS, session=<q8kXei2CKsfAqA1j>
+Feb 18 16:19:07 z1 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=4348, TLS, session=<g7nsey2CLMfAqA1j>
+Feb 18 16:19:49 z1 postfix/smtpd[4350]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:19:49 z1 postfix/smtpd[4350]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:19:49 z1 postfix/proxymap[4351]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:19:49 z1 postfix/proxymap[4351]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:19:49 z1 postfix/smtpd[4350]: connect from z1.yanah.hier[192.168.11.100]
+Feb 18 16:20:07 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=4358, TLS, session=<4xaBfy2CQsfAqA1j>
+Feb 18 16:20:28 z1 postfix/smtpd[4350]: disconnect from z1.yanah.hier[192.168.11.100] ehlo=1 quit=1 commands=2
+Feb 18 16:20:32 z1 postfix/smtpd[4350]: connect from z1.yanah.hier[192.168.11.100]
+Feb 18 16:21:31 z1 postfix/smtpd[4350]: disconnect from z1.yanah.hier[192.168.11.100] quit=1 commands=1
+Feb 18 16:21:34 z1 postfix/smtpd[4350]: connect from z1.yanah.hier[192.168.11.100]
+Feb 18 16:21:52 z1 postfix/smtpd[4350]: disconnect from z1.yanah.hier[192.168.11.100] ehlo=1 quit=1 unknown=0/1 commands=2/3
+Feb 18 16:22:01 z1 postfix/anvil[4305]: statistics: max connection rate 2/60s for (smtp:192.168.11.100) at Feb 18 16:20:32
+Feb 18 16:22:01 z1 postfix/anvil[4305]: statistics: max connection count 1 for (smtp:192.168.11.100) at Feb 18 16:12:01
+Feb 18 16:22:01 z1 postfix/anvil[4305]: statistics: max cache size 1 at Feb 18 16:12:01
+Feb 18 16:30:00 z1 postfix/smtpd[5220]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:30:00 z1 postfix/smtpd[5220]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:30:00 z1 postfix/proxymap[5221]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:30:00 z1 postfix/proxymap[5221]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:30:00 z1 postfix/smtpd[5220]: connect from z1.yanah.hier[192.168.11.100]
+Feb 18 16:30:00 z1 postfix/anvil[5222]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:30:00 z1 postfix/anvil[5222]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:30:09 z1 postfix/smtpd[5220]: disconnect from z1.yanah.hier[192.168.11.100] quit=1 commands=1
+Feb 18 16:31:56 z1 dovecot: master: Warning: Killed with signal 15 (by pid=5237 uid=0 code=kill)
+Feb 18 16:31:56 z1 dovecot: imap(yanah): Server shutting down. in=448 out=2311
+Feb 18 16:31:56 z1 dovecot: imap(u2): Server shutting down. in=448 out=2308
+Feb 18 16:31:56 z1 dovecot: imap(u1): Server shutting down. in=448 out=2308
+Feb 18 16:31:56 z1 dovecot: imap(u3): Server shutting down. in=448 out=2247
+Feb 18 16:31:56 z1 dovecot: log: Warning: Killed with signal 15 (by pid=1 uid=0 code=kill)
+Feb 18 16:31:56 z1 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Feb 18 16:32:08 z1 postmulti[5263]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:32:08 z1 postmulti[5263]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:32:08 z1 postfix[5264]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:32:08 z1 postfix[5264]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:32:08 z1 postfix/master[5269]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:32:08 z1 postfix/master[5269]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:32:08 z1 postfix/postlog[5270]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:32:08 z1 postfix/postlog[5270]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:32:08 z1 postfix/postfix-script[5270]: stopping the Postfix mail system
+Feb 18 16:32:08 z1 postfix/master[4039]: terminating on signal 15
+Feb 18 16:32:08 z1 postfix/master[5272]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:32:08 z1 postfix/master[5272]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:32:08 z1 postmulti[5328]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:32:08 z1 postmulti[5328]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:32:08 z1 postfix[5329]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:32:08 z1 postfix[5329]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:32:08 z1 postfix/master[5334]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:32:08 z1 postfix/master[5334]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:32:08 z1 postfix/postsuper[5373]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:32:08 z1 postfix/postsuper[5373]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:32:08 z1 postfix/postlog[5425]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:32:08 z1 postfix/postlog[5425]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:32:08 z1 postfix/postfix-script[5425]: starting the Postfix mail system
+Feb 18 16:32:08 z1 postfix/master[5427]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:32:08 z1 postfix/master[5427]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:32:08 z1 postfix/master[5427]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 18 16:32:08 z1 postfix/qmgr[5438]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:32:08 z1 postfix/qmgr[5438]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:32:08 z1 postfix/pickup[5437]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:32:08 z1 postfix/pickup[5437]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:32:12 z1 postfix/smtpd[5440]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:32:12 z1 postfix/smtpd[5440]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:32:12 z1 postfix/proxymap[5441]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:32:12 z1 postfix/proxymap[5441]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:32:12 z1 postfix/tlsmgr[5442]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:32:12 z1 postfix/tlsmgr[5442]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:32:12 z1 postfix/smtpd[5440]: connect from z1.yanah.hier[192.168.11.100]
+Feb 18 16:32:12 z1 postfix/anvil[5443]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:32:12 z1 postfix/anvil[5443]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:33:08 z1 postfix/smtpd[5440]: warning: z1.yanah.hier[192.168.11.100]: SASL plain authentication failed: Invalid base64 data in continued response
+Feb 18 16:34:45 z1 postfix/smtpd[5440]: disconnect from z1.yanah.hier[192.168.11.100] ehlo=1 auth=0/1 quit=1 commands=2/3
+Feb 18 16:37:17 z1 postfix/smtpd[5469]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:37:17 z1 postfix/smtpd[5469]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:37:17 z1 postfix/proxymap[5470]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:37:17 z1 postfix/proxymap[5470]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:37:17 z1 postfix/smtpd[5469]: connect from z1.yanah.hier[192.168.11.100]
+Feb 18 16:37:53 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=5476, TLS, session=<8ZEIvy2CgsfAqA1j>
+Feb 18 16:37:55 z1 postfix/smtpd[5469]: disconnect from z1.yanah.hier[192.168.11.100] ehlo=1 quit=1 unknown=0/2 commands=2/4
+Feb 18 16:38:14 z1 dovecot: imap-login: Login: user=<yanah>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=5483, TLS, session=<HeY/wC2ChMfAqA1j>
+Feb 18 16:39:16 z1 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=5491, TLS, session=<rW/ywy2ChsfAqA1j>
+Feb 18 16:40:06 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=5497, TLS, session=<3LTxxi2CiMfAqA1j>
+Feb 18 16:41:15 z1 postfix/anvil[5443]: statistics: max connection rate 1/60s for (smtp:192.168.11.100) at Feb 18 16:32:12
+Feb 18 16:41:15 z1 postfix/anvil[5443]: statistics: max connection count 1 for (smtp:192.168.11.100) at Feb 18 16:32:12
+Feb 18 16:41:15 z1 postfix/anvil[5443]: statistics: max cache size 1 at Feb 18 16:32:12
+Feb 18 16:44:54 z1 postfix/smtpd[5517]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:44:54 z1 postfix/smtpd[5517]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:44:54 z1 postfix/proxymap[5518]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:44:54 z1 postfix/proxymap[5518]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:44:54 z1 postfix/smtpd[5517]: connect from z1.yanah.hier[192.168.11.100]
+Feb 18 16:44:54 z1 postfix/anvil[5519]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 16:44:54 z1 postfix/anvil[5519]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 16:50:08 z1 postfix/smtpd[5517]: timeout after AUTH from z1.yanah.hier[192.168.11.100]
+Feb 18 16:50:08 z1 postfix/smtpd[5517]: disconnect from z1.yanah.hier[192.168.11.100] ehlo=1 auth=0/1 commands=1/2
+Feb 18 16:53:28 z1 postfix/anvil[5519]: statistics: max connection rate 1/60s for (smtp:192.168.11.100) at Feb 18 16:44:54
+Feb 18 16:53:28 z1 postfix/anvil[5519]: statistics: max connection count 1 for (smtp:192.168.11.100) at Feb 18 16:44:54
+Feb 18 16:53:28 z1 postfix/anvil[5519]: statistics: max cache size 1 at Feb 18 16:44:54
+Feb 18 17:53:57 z1 postfix/smtpd[5820]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 17:53:57 z1 postfix/smtpd[5820]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 17:53:57 z1 postfix/proxymap[5821]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 17:53:57 z1 postfix/proxymap[5821]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 17:53:57 z1 postfix/smtpd[5820]: connect from z1.yanah.hier[192.168.11.100]
+Feb 18 17:53:57 z1 postfix/anvil[5822]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 17:53:57 z1 postfix/anvil[5822]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 17:54:45 z1 postfix/trivial-rewrite[5828]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 17:54:45 z1 postfix/trivial-rewrite[5828]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 17:55:26 z1 postfix/cleanup[5833]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 17:55:26 z1 postfix/cleanup[5833]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 17:55:26 z1 postfix/smtpd[5820]: 4283BE0974: client=z1.yanah.hier[192.168.11.100]
+Feb 18 17:56:50 z1 postfix/cleanup[5833]: 4283BE0974: message-id=<20190218175526.4283BE0974@z1.yanah.hier>
+Feb 18 17:56:50 z1 postfix/qmgr[5438]: 4283BE0974: from=<u2@z1.yanah.hier>, size=370, nrcpt=1 (queue active)
+Feb 18 17:56:50 z1 postfix/local[5838]: warning: /etc/postfix/main.cf, line 50: overriding earlier entry: mynetworks=127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Feb 18 17:56:50 z1 postfix/local[5838]: warning: /etc/postfix/main.cf, line 55: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 17:56:50 z1 postfix/local[5838]: 4283BE0974: to=<u1@z1.yanah.hier>, relay=local, delay=125, delays=125/0.01/0/0.03, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 17:56:50 z1 postfix/qmgr[5438]: 4283BE0974: removed
+Feb 18 17:58:07 z1 postfix/smtpd[5820]: disconnect from z1.yanah.hier[192.168.11.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 18 17:59:25 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=5855, TLS, session=<Dxug4i6CisfAqA1j>
+Feb 18 18:01:27 z1 postfix/anvil[5822]: statistics: max connection rate 1/60s for (smtp:192.168.11.100) at Feb 18 17:53:57
+Feb 18 18:01:27 z1 postfix/anvil[5822]: statistics: max connection count 1 for (smtp:192.168.11.100) at Feb 18 17:53:57
+Feb 18 18:01:27 z1 postfix/anvil[5822]: statistics: max cache size 1 at Feb 18 17:53:57
+Feb 18 18:07:26 z1 postmulti[5896]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:07:26 z1 postfix[5897]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:07:26 z1 postfix/master[5902]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:07:26 z1 postfix/postlog[5903]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:07:26 z1 postfix/postfix-script[5903]: stopping the Postfix mail system
+Feb 18 18:07:26 z1 postfix/master[5427]: terminating on signal 15
+Feb 18 18:07:26 z1 postfix/master[5905]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:07:26 z1 postmulti[5961]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:07:26 z1 postfix[5962]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:07:26 z1 postfix/master[5967]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:07:26 z1 postfix/postsuper[6006]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:07:26 z1 postfix/postlog[6058]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:07:26 z1 postfix/postfix-script[6058]: starting the Postfix mail system
+Feb 18 18:07:26 z1 postfix/master[6060]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:07:26 z1 postfix/master[6060]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 18 18:07:26 z1 postfix/pickup[6062]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:07:26 z1 postfix/qmgr[6063]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:07:38 z1 postfix/smtpd[6077]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:07:38 z1 postfix/proxymap[6078]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:07:38 z1 postfix/tlsmgr[6079]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:07:38 z1 postfix/smtpd[6077]: connect from z1.yanah.hier[192.168.11.100]
+Feb 18 18:07:38 z1 postfix/anvil[6080]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:08:13 z1 postfix/smtpd[6077]: disconnect from z1.yanah.hier[192.168.11.100] ehlo=1 quit=1 commands=2
+Feb 18 18:11:33 z1 postfix/anvil[6080]: statistics: max connection rate 1/60s for (smtp:192.168.11.100) at Feb 18 18:07:38
+Feb 18 18:11:33 z1 postfix/anvil[6080]: statistics: max connection count 1 for (smtp:192.168.11.100) at Feb 18 18:07:38
+Feb 18 18:11:33 z1 postfix/anvil[6080]: statistics: max cache size 1 at Feb 18 18:07:38
+Feb 18 18:11:39 z1 dovecot: master: Warning: Killed with signal 15 (by pid=6104 uid=0 code=kill)
+Feb 18 18:11:39 z1 dovecot: imap(u3): Server shutting down. in=150 out=655
+Feb 18 18:11:39 z1 dovecot: imap(u1): Server shutting down. in=3478 out=14137
+Feb 18 18:11:39 z1 dovecot: imap(u2): Server shutting down. in=2928 out=12147
+Feb 18 18:11:39 z1 dovecot: imap(yanah): Server shutting down. in=2928 out=12161
+Feb 18 18:11:39 z1 dovecot: imap(u3): Server shutting down. in=2928 out=12070
+Feb 18 18:11:39 z1 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Feb 18 18:11:54 z1 postfix/smtpd[6133]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:11:54 z1 postfix/proxymap[6134]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:11:54 z1 postfix/smtpd[6133]: connect from z1.yanah.hier[192.168.11.100]
+Feb 18 18:11:54 z1 postfix/anvil[6135]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:13:52 z1 postfix/smtpd[6133]: warning: z1.yanah.hier[192.168.11.100]: SASL plain authentication failed:
+Feb 18 18:13:52 z1 postfix/smtpd[6133]: disconnect from z1.yanah.hier[192.168.11.100] ehlo=1 auth=0/1 quit=1 commands=2/3
+Feb 18 18:14:07 z1 postfix/smtpd[6133]: connect from z1.yanah.hier[192.168.11.100]
+Feb 18 18:17:04 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=6171, TLS, session=<S5i5IS+CjMfAqA1j>
+Feb 18 18:18:16 z1 dovecot: imap-login: Login: user=<yanah>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=6179, TLS, session=<jJgCJi+CjsfAqA1j>
+Feb 18 18:18:26 z1 postfix/smtpd[6133]: warning: z1.yanah.hier[192.168.11.100]: SASL plain authentication failed: Invalid base64 data in continued response
+Feb 18 18:19:09 z1 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=6186, TLS, session=<V6srKS+CkMfAqA1j>
+Feb 18 18:19:22 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=6188, TLS, session=<UWP0KS+CksfAqA1j>
+Feb 18 18:21:55 z1 postfix/anvil[6135]: statistics: max connection rate 1/60s for (smtp:192.168.11.100) at Feb 18 18:11:54
+Feb 18 18:21:55 z1 postfix/anvil[6135]: statistics: max connection count 1 for (smtp:192.168.11.100) at Feb 18 18:11:54
+Feb 18 18:21:55 z1 postfix/anvil[6135]: statistics: max cache size 1 at Feb 18 18:11:54
+Feb 18 18:23:26 z1 postfix/smtpd[6133]: timeout after AUTH from z1.yanah.hier[192.168.11.100]
+Feb 18 18:23:26 z1 postfix/smtpd[6133]: disconnect from z1.yanah.hier[192.168.11.100] auth=0/1 commands=0/1
+Feb 18 18:26:03 z1 postfix/smtpd[6221]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:26:03 z1 postfix/proxymap[6222]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:26:03 z1 postfix/smtpd[6221]: connect from z1.yanah.hier[192.168.11.100]
+Feb 18 18:26:33 z1 postfix/trivial-rewrite[6223]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:27:15 z1 postfix/cleanup[6228]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:27:15 z1 postfix/smtpd[6221]: C7477E0974: client=z1.yanah.hier[192.168.11.100]
+Feb 18 18:28:13 z1 postfix/cleanup[6228]: C7477E0974: message-id=<20190218182715.C7477E0974@z1.yanah.hier>
+Feb 18 18:28:13 z1 postfix/qmgr[6063]: C7477E0974: from=<u1@z1.yanah.hier>, size=356, nrcpt=1 (queue active)
+Feb 18 18:28:13 z1 postfix/local[6233]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:28:13 z1 postfix/local[6233]: C7477E0974: to=<u2@z1.yanah.hier>, relay=local, delay=100, delays=100/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 18:28:13 z1 postfix/qmgr[6063]: C7477E0974: removed
+Feb 18 18:28:17 z1 postfix/smtpd[6221]: disconnect from z1.yanah.hier[192.168.11.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 18 18:31:37 z1 postfix/anvil[6135]: statistics: max connection rate 1/60s for (smtp:192.168.11.100) at Feb 18 18:26:03
+Feb 18 18:31:37 z1 postfix/anvil[6135]: statistics: max connection count 1 for (smtp:192.168.11.100) at Feb 18 18:26:03
+Feb 18 18:31:37 z1 postfix/anvil[6135]: statistics: max cache size 1 at Feb 18 18:26:03
+Feb 18 18:36:07 z1 postfix/smtpd[6272]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:36:07 z1 postfix/proxymap[6273]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:36:08 z1 postfix/smtpd[6272]: connect from unknown[192.168.13.99]
+Feb 18 18:36:08 z1 postfix/anvil[6274]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:36:08 z1 postfix/trivial-rewrite[6277]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:36:08 z1 postfix/cleanup[6278]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:36:08 z1 postfix/smtpd[6272]: 222ABE016D: client=unknown[192.168.13.99], sasl_method=PLAIN, sasl_username=u1
+Feb 18 18:36:08 z1 postfix/cleanup[6278]: 222ABE016D: message-id=<e6343e02-0259-f5d4-6ed0-ac615f7b6214@z1.yanah.hier>
+Feb 18 18:36:08 z1 postfix/qmgr[6063]: 222ABE016D: from=<u1@z1.yanah.hier>, size=619, nrcpt=1 (queue active)
+Feb 18 18:36:08 z1 postfix/local[6279]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:36:08 z1 postfix/local[6279]: 222ABE016D: to=<u2@z1.yanah.hier>, relay=local, delay=0.02, delays=0.01/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 18:36:08 z1 postfix/qmgr[6063]: 222ABE016D: removed
+Feb 18 18:36:08 z1 postfix/smtpd[6272]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 auth=1 mail=1 rcpt=1 data=1 quit=1 commands=8
+Feb 18 18:36:08 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=6282, TLS, session=<JvrlZS+ClsfAqA1j>
+Feb 18 18:36:08 z1 dovecot: imap(u1): Logged out in=502 out=549
+Feb 18 18:36:28 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=6284, TLS, session=<6DoiZy+CmMfAqA1j>
+Feb 18 18:36:29 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=6286, TLS, session=<kGUoZy+CmsfAqA1j>
+Feb 18 18:38:28 z1 postfix/smtpd[6295]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:38:28 z1 postfix/proxymap[6296]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:38:28 z1 postfix/smtpd[6295]: connect from unknown[192.168.13.99]
+Feb 18 18:38:28 z1 postfix/trivial-rewrite[6298]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:38:28 z1 postfix/cleanup[6299]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:38:28 z1 postfix/smtpd[6295]: E6087E016D: client=unknown[192.168.13.99], sasl_method=PLAIN, sasl_username=u1
+Feb 18 18:38:28 z1 postfix/cleanup[6299]: E6087E016D: message-id=<8461d8e6-cc9e-e008-c98e-ad6ddfbd3b83@z1.yanah.hier>
+Feb 18 18:38:28 z1 postfix/qmgr[6063]: E6087E016D: from=<u1@z1.yanah.hier>, size=625, nrcpt=1 (queue active)
+Feb 18 18:38:28 z1 postfix/local[6300]: warning: /etc/postfix/main.cf, line 54: overriding earlier entry: smtpd_relay_restrictions=permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+Feb 18 18:38:28 z1 postfix/local[6300]: E6087E016D: to=<u2@z1.yanah.hier>, relay=local, delay=0.05, delays=0.04/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 18:38:28 z1 postfix/qmgr[6063]: E6087E016D: removed
+Feb 18 18:38:29 z1 postfix/smtpd[6295]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 auth=1 mail=1 rcpt=1 data=1 quit=1 commands=8
+Feb 18 18:38:29 z1 dovecot: imap(u1): Connection closed (IDLE running for 0.001 + waiting input for 0.001 secs, 2 B in + 10+10 B out, state=wait-input) in=807 out=2055
+Feb 18 18:38:38 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=6303, TLS, session=<CD/ebi+CssfAqA1j>
+Feb 18 18:41:49 z1 postfix/anvil[6274]: statistics: max connection rate 1/60s for (smtp:192.168.13.99) at Feb 18 18:36:08
+Feb 18 18:41:49 z1 postfix/anvil[6274]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 18 18:36:08
+Feb 18 18:41:49 z1 postfix/anvil[6274]: statistics: max cache size 1 at Feb 18 18:36:08
+Feb 18 18:59:30 z1 postfix/smtpd[6397]: connect from unknown[192.168.13.99]
+Feb 18 18:59:30 z1 postfix/smtpd[6397]: E6FD0E016D: client=unknown[192.168.13.99], sasl_method=PLAIN, sasl_username=u1
+Feb 18 18:59:30 z1 postfix/cleanup[6403]: E6FD0E016D: message-id=<e8db3ce3-5d8e-5303-5555-c817258b6048@z1.yanah.hier>
+Feb 18 18:59:30 z1 postfix/qmgr[6063]: E6FD0E016D: from=<u1@z1.yanah.hier>, size=619, nrcpt=1 (queue active)
+Feb 18 18:59:30 z1 postfix/smtpd[6397]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 auth=1 mail=1 rcpt=1 data=1 quit=1 commands=8
+Feb 18 18:59:30 z1 postfix/local[6404]: E6FD0E016D: to=<u2@z1.yanah.hier>, relay=local, delay=0.03, delays=0.02/0/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 18:59:30 z1 postfix/qmgr[6063]: E6FD0E016D: removed
+Feb 18 18:59:31 z1 dovecot: imap(u1): Connection closed (IDLE running for 0.001 + waiting input for 0.001 secs, 2 B in + 10+10 B out, state=wait-input) in=1261 out=3939
+Feb 18 19:02:51 z1 postfix/anvil[6399]: statistics: max connection rate 1/60s for (smtp:192.168.13.99) at Feb 18 18:59:30
+Feb 18 19:02:51 z1 postfix/anvil[6399]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 18 18:59:30
+Feb 18 19:02:51 z1 postfix/anvil[6399]: statistics: max cache size 1 at Feb 18 18:59:30
+Feb 18 19:29:23 z1 dovecot: imap(u3): Disconnected for inactivity in=355 out=1071
+Feb 18 19:39:23 z1 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Feb 18 19:39:25 z1 dovecot: imap-login: Login: user=<yanah>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=1129, TLS, session=<EEUzSDCCoMjAqA1j>
+Feb 18 19:39:25 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=1131, TLS, session=<RWgzSDCCosjAqA1j>
+Feb 18 19:39:25 z1 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=1135, TLS, session=<vGwzSDCCnsjAqA1j>
+Feb 18 19:39:25 z1 postfix/postfix-script[1226]: starting the Postfix mail system
+Feb 18 19:39:25 z1 postfix/master[1229]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 18 19:39:51 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=1375, TLS, session=<nb7OSTCCpMjAqA1j>
+Feb 18 19:39:52 z1 dovecot: imap-login: Login: user=<u3>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=1377, TLS, session=<GebVSTCCpsjAqA1j>
+Feb 18 19:46:08 z1 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.11.100, mpid=1571, TLS, session=<JE1BYDCCqMjAqA1j>
+Feb 18 19:56:06 z1 postfix/postfix-script[1708]: stopping the Postfix mail system
+Feb 18 19:56:06 z1 postfix/master[1229]: terminating on signal 15
+Feb 18 19:56:07 z1 postfix/postfix-script[1863]: starting the Postfix mail system
+Feb 18 19:56:07 z1 postfix/master[1865]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 18 19:58:14 z1 dovecot: imap-login: Aborted login (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<N6uGizCCtsjAqA1j>
+Feb 18 19:58:14 z1 dovecot: pop3-login: Aborted login (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<c8WGizCC6MjAqA1j>
+Feb 18 19:58:14 z1 dovecot: imap-login: Aborted login (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<dS+HizCCusjAqA1j>
+Feb 18 19:58:14 z1 dovecot: pop3-login: Aborted login (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.100, session=<njOHizCC7MjAqA1j>
+Feb 18 19:58:14 z1 postfix/smtpd[1891]: connect from unknown[192.168.13.99]
+Feb 18 19:58:14 z1 postfix/smtpd[1898]: connect from unknown[192.168.13.99]
+Feb 18 19:58:14 z1 postfix/smtpd[1891]: improper command pipelining after EHLO from unknown[192.168.13.99]:
+Feb 18 19:58:14 z1 postfix/smtpd[1898]: disconnect from unknown[192.168.13.99] ehlo=1 quit=1 commands=2
+Feb 18 19:58:14 z1 postfix/smtpd[1891]: disconnect from unknown[192.168.13.99] ehlo=1 quit=1 commands=2
+Feb 18 20:00:50 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.101, session=<23fWlDCC/MXAqA1j>
+Feb 18 20:00:53 z1 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.11.101, session=<BDP/lDCCAMbAqA1j>
+Feb 18 20:01:34 z1 postfix/anvil[1899]: statistics: max connection rate 2/60s for (smtp:192.168.13.99) at Feb 18 19:58:14
+Feb 18 20:01:34 z1 postfix/anvil[1899]: statistics: max connection count 2 for (smtp:192.168.13.99) at Feb 18 19:58:14
+Feb 18 20:01:34 z1 postfix/anvil[1899]: statistics: max cache size 1 at Feb 18 19:58:14
+Feb 18 20:13:27 z1 postfix/pickup[1875]: C9222E05D4: uid=1000 from=<yanah@z1.yanah.hier>
+Feb 18 20:13:27 z1 postfix/cleanup[2108]: C9222E05D4: message-id=<20190218201327.C9222E05D4@z1.yanah.hier>
+Feb 18 20:13:27 z1 postfix/qmgr[1876]: C9222E05D4: from=<yanah@z1.yanah.hier>, size=375, nrcpt=1 (queue active)
+Feb 18 20:13:27 z1 postfix/local[2110]: C9222E05D4: to=<u2@z1.yanah.hier>, relay=local, delay=0.08, delays=0.05/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 20:13:27 z1 postfix/qmgr[1876]: C9222E05D4: removed
+Feb 18 20:20:30 z1 postfix/pickup[1875]: 5DF38E05D4: uid=1000 from=<yanah@z1.yanah.hier>
+Feb 18 20:20:30 z1 postfix/cleanup[2148]: 5DF38E05D4: message-id=<20190218202030.5DF38E05D4@z1.yanah.hier>
+Feb 18 20:20:30 z1 postfix/qmgr[1876]: 5DF38E05D4: from=<yanah@z1.yanah.hier>, size=343, nrcpt=1 (queue active)
+Feb 18 20:20:30 z1 postfix/local[2150]: 5DF38E05D4: to=<u3@z1.yanah.hier>, relay=local, delay=0.13, delays=0.1/0/0/0.02, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 20:20:30 z1 postfix/qmgr[1876]: 5DF38E05D4: removed
+Feb 18 20:30:01 z1 postfix/pickup[1875]: 94D5BE05D4: uid=1000 from=<yanah@z1.yanah.hier>
+Feb 18 20:30:01 z1 postfix/cleanup[2197]: 94D5BE05D4: message-id=<20190218203001.94D5BE05D4@z1.yanah.hier>
+Feb 18 20:30:01 z1 postfix/qmgr[1876]: 94D5BE05D4: from=<yanah@z1.yanah.hier>, size=348, nrcpt=1 (queue active)
+Feb 18 20:30:01 z1 postfix/smtp[2199]: 94D5BE05D4: to=<u2@z2.yanah.hier>, relay=192.168.12.103[192.168.12.103]:25, delay=0.28, delays=0.03/0.01/0.22/0.02, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as D8DB6101310)
+Feb 18 20:30:01 z1 postfix/qmgr[1876]: 94D5BE05D4: removed
+Feb 18 20:35:49 z1 postfix/pickup[1875]: 65457E05D4: uid=1000 from=<yanah@z1.yanah.hier>
+Feb 18 20:35:49 z1 postfix/cleanup[2226]: 65457E05D4: message-id=<20190218203549.65457E05D4@z1.yanah.hier>
+Feb 18 20:35:49 z1 postfix/qmgr[1876]: 65457E05D4: from=<yanah@z1.yanah.hier>, size=360, nrcpt=2 (queue active)
+Feb 18 20:35:49 z1 postfix/local[2228]: 65457E05D4: to=<u1@z1.yanah.hier>, relay=local, delay=0.06, delays=0.03/0.01/0/0.02, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 20:35:49 z1 postfix/smtp[2229]: 65457E05D4: to=<u2@z2.yanah.hier>, relay=192.168.12.103[192.168.12.103]:25, delay=0.16, delays=0.03/0.01/0.11/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 8E2A9101310)
+Feb 18 20:35:49 z1 postfix/qmgr[1876]: 65457E05D4: removed
+Feb 18 20:39:37 z1 postfix/smtpd[2247]: connect from dns-z2.z2.yanah.hier[192.168.12.100]
+Feb 18 20:39:37 z1 postfix/smtpd[2247]: D9951E0347: client=dns-z2.z2.yanah.hier[192.168.12.100]
+Feb 18 20:39:37 z1 postfix/cleanup[2252]: D9951E0347: message-id=<20190218203937.D23EC101310@z2.yanah.hier>
+Feb 18 20:39:37 z1 postfix/qmgr[1876]: D9951E0347: from=<u2@z2.yanah.hier>, size=540, nrcpt=1 (queue active)
+Feb 18 20:39:37 z1 postfix/smtpd[2247]: disconnect from dns-z2.z2.yanah.hier[192.168.12.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 18 20:39:37 z1 postfix/local[2253]: D9951E0347: to=<u3@z1.yanah.hier>, relay=local, delay=0.02, delays=0.01/0/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 20:39:37 z1 postfix/qmgr[1876]: D9951E0347: removed
+Feb 18 20:41:50 z1 postfix/pickup[1875]: 78CEEE05D4: uid=1000 from=<yanah@z1.yanah.hier>
+Feb 18 20:41:50 z1 postfix/cleanup[2266]: 78CEEE05D4: message-id=<20190218204150.78CEEE05D4@z1.yanah.hier>
+Feb 18 20:41:50 z1 postfix/qmgr[1876]: 78CEEE05D4: from=<yanah@z1.yanah.hier>, size=346, nrcpt=1 (queue active)
+Feb 18 20:41:50 z1 postfix/local[2268]: 78CEEE05D4: to=<yanah@z1.yanah.hier>, relay=local, delay=0.03, delays=0.01/0/0/0.02, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 20:41:50 z1 postfix/qmgr[1876]: 78CEEE05D4: removed
+Feb 18 20:42:58 z1 postfix/anvil[2249]: statistics: max connection rate 1/60s for (smtp:192.168.12.100) at Feb 18 20:39:37
+Feb 18 20:42:58 z1 postfix/anvil[2249]: statistics: max connection count 1 for (smtp:192.168.12.100) at Feb 18 20:39:37
+Feb 18 20:42:58 z1 postfix/anvil[2249]: statistics: max cache size 1 at Feb 18 20:39:37
+Feb 18 20:55:16 z1 postfix/pickup[1875]: 72494E05D3: uid=1000 from=<yanah@z1.yanah.hier>
+Feb 18 20:55:16 z1 postfix/cleanup[3349]: 72494E05D3: message-id=<20190218205516.72494E05D3@z1.yanah.hier>
+Feb 18 20:55:16 z1 postfix/qmgr[1876]: 72494E05D3: from=<yanah@z1.yanah.hier>, size=361, nrcpt=1 (queue active)
+Feb 18 20:55:16 z1 postfix/local[3351]: 72494E05D3: to=<yanah@z1.yanah.hier>, relay=local, delay=0.03, delays=0.02/0/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 20:55:16 z1 postfix/qmgr[1876]: 72494E05D3: removed
+Feb 18 20:59:40 z1 postfix/pickup[1875]: A917CE05D3: uid=1000 from=<yanah@z1.yanah.hier>
+Feb 18 20:59:40 z1 postfix/cleanup[3372]: A917CE05D3: message-id=<20190218205940.A917CE05D3@z1.yanah.hier>
+Feb 18 20:59:40 z1 postfix/qmgr[1876]: A917CE05D3: from=<yanah@z1.yanah.hier>, size=356, nrcpt=1 (queue active)
+Feb 18 20:59:40 z1 postfix/local[3374]: A917CE05D3: to=<yanah@z1.yanah.hier>, relay=local, delay=0.03, delays=0.02/0/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 20:59:40 z1 postfix/qmgr[1876]: A917CE05D3: removed
+Feb 18 21:01:36 z1 postfix/pickup[1875]: AB805E05D3: uid=1000 from=<yanah@z1.yanah.hier>
+Feb 18 21:01:36 z1 postfix/cleanup[3387]: AB805E05D3: message-id=<20190218210136.AB805E05D3@z1.yanah.hier>
+Feb 18 21:01:36 z1 postfix/qmgr[1876]: AB805E05D3: from=<yanah@z1.yanah.hier>, size=335, nrcpt=1 (queue active)
+Feb 18 21:01:36 z1 postfix/local[3389]: AB805E05D3: to=<u1@z1.yanah.hier>, relay=local, delay=0.02, delays=0.01/0/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 21:01:36 z1 postfix/qmgr[1876]: AB805E05D3: removed
+Feb 18 21:02:47 z1 postfix/smtpd[3397]: connect from dns-z2.z2.yanah.hier[192.168.12.100]
+Feb 18 21:02:47 z1 postfix/smtpd[3397]: 49DD6E05D2: client=dns-z2.z2.yanah.hier[192.168.12.100]
+Feb 18 21:02:47 z1 postfix/cleanup[3387]: 49DD6E05D2: message-id=<20190218210247.43821101310@z2.yanah.hier>
+Feb 18 21:02:47 z1 postfix/qmgr[1876]: 49DD6E05D2: from=<yanah@dns-z2>, size=544, nrcpt=1 (queue active)
+Feb 18 21:02:47 z1 postfix/local[3389]: 49DD6E05D2: to=<u2@z1.yanah.hier>, relay=local, delay=0, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 21:02:47 z1 postfix/qmgr[1876]: 49DD6E05D2: removed
+Feb 18 21:02:47 z1 postfix/smtpd[3397]: disconnect from dns-z2.z2.yanah.hier[192.168.12.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 18 21:04:44 z1 postfix/pickup[1875]: 63F88E05D3: uid=1000 from=<yanah@z1.yanah.hier>
+Feb 18 21:04:44 z1 postfix/cleanup[3413]: 63F88E05D3: message-id=<20190218210444.63F88E05D3@z1.yanah.hier>
+Feb 18 21:04:44 z1 postfix/qmgr[1876]: 63F88E05D3: from=<yanah@z1.yanah.hier>, size=362, nrcpt=2 (queue active)
+Feb 18 21:04:44 z1 postfix/local[3416]: 63F88E05D3: to=<u2@z1.yanah.hier>, relay=local, delay=0.02, delays=0.01/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 21:04:44 z1 postfix/smtp[3415]: 63F88E05D3: to=<u2@z2.yanah.hier>, relay=192.168.12.103[192.168.12.103]:25, delay=0.13, delays=0.01/0.01/0.1/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 86794101310)
+Feb 18 21:04:44 z1 postfix/qmgr[1876]: 63F88E05D3: removed
+Feb 18 21:04:52 z1 postfix/pickup[1875]: 81BE1E05D3: uid=1000 from=<yanah@z1.yanah.hier>
+Feb 18 21:04:52 z1 postfix/cleanup[3413]: 81BE1E05D3: message-id=<20190218210452.81BE1E05D3@z1.yanah.hier>
+Feb 18 21:04:52 z1 postfix/qmgr[1876]: 81BE1E05D3: from=<yanah@z1.yanah.hier>, size=362, nrcpt=2 (queue active)
+Feb 18 21:04:52 z1 postfix/local[3416]: 81BE1E05D3: to=<u2@z1.yanah.hier>, relay=local, delay=0.02, delays=0.01/0/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 21:04:52 z1 postfix/smtp[3415]: 81BE1E05D3: to=<u2@z2.yanah.hier>, relay=192.168.12.103[192.168.12.103]:25, delay=0.17, delays=0.01/0/0.16/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as AFAA5101310)
+Feb 18 21:04:52 z1 postfix/qmgr[1876]: 81BE1E05D3: removed
+Feb 18 21:06:07 z1 postfix/anvil[3399]: statistics: max connection rate 1/60s for (smtp:192.168.12.100) at Feb 18 21:02:47
+Feb 18 21:06:07 z1 postfix/anvil[3399]: statistics: max connection count 1 for (smtp:192.168.12.100) at Feb 18 21:02:47
+Feb 18 21:06:07 z1 postfix/anvil[3399]: statistics: max cache size 1 at Feb 18 21:02:47
+Feb 18 21:07:50 z1 postfix/smtpd[3434]: connect from dns-z2.z2.yanah.hier[192.168.12.100]
+Feb 18 21:07:50 z1 postfix/smtpd[3434]: BBCBCE05D2: client=dns-z2.z2.yanah.hier[192.168.12.100]
+Feb 18 21:07:50 z1 postfix/cleanup[3439]: BBCBCE05D2: message-id=<20190218210750.B7A3C101310@z2.yanah.hier>
+Feb 18 21:07:50 z1 postfix/qmgr[1876]: BBCBCE05D2: from=<u1@z1.yanah.hier>, size=524, nrcpt=1 (queue active)
+Feb 18 21:07:50 z1 postfix/smtpd[3434]: disconnect from dns-z2.z2.yanah.hier[192.168.12.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 18 21:07:50 z1 postfix/local[3440]: BBCBCE05D2: to=<u3@z1.yanah.hier>, relay=local, delay=0.09, delays=0.08/0/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 21:07:50 z1 postfix/qmgr[1876]: BBCBCE05D2: removed
+Feb 18 21:11:11 z1 postfix/anvil[3436]: statistics: max connection rate 1/60s for (smtp:192.168.12.100) at Feb 18 21:07:50
+Feb 18 21:11:11 z1 postfix/anvil[3436]: statistics: max connection count 1 for (smtp:192.168.12.100) at Feb 18 21:07:50
+Feb 18 21:11:11 z1 postfix/anvil[3436]: statistics: max cache size 1 at Feb 18 21:07:50
+Feb 18 21:12:52 z1 postfix/smtpd[3464]: connect from dns-z2.z2.yanah.hier[192.168.12.100]
+Feb 18 21:12:52 z1 postfix/smtpd[3464]: 2C6EAE05D2: client=dns-z2.z2.yanah.hier[192.168.12.100]
+Feb 18 21:12:52 z1 postfix/cleanup[3469]: 2C6EAE05D2: message-id=<20190218211252.25E92101310@z2.yanah.hier>
+Feb 18 21:12:52 z1 postfix/qmgr[1876]: 2C6EAE05D2: from=<u1@z1.yanah.hier>, size=535, nrcpt=1 (queue active)
+Feb 18 21:12:52 z1 postfix/smtpd[3464]: disconnect from dns-z2.z2.yanah.hier[192.168.12.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 18 21:12:52 z1 postfix/local[3470]: 2C6EAE05D2: to=<u2@z1.yanah.hier>, relay=local, delay=0.01, delays=0.01/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 21:12:52 z1 postfix/qmgr[1876]: 2C6EAE05D2: removed
+Feb 18 21:13:14 z1 postfix/smtpd[3464]: connect from dns-z2.z2.yanah.hier[192.168.12.100]
+Feb 18 21:13:14 z1 postfix/smtpd[3464]: 4A900E05D2: client=dns-z2.z2.yanah.hier[192.168.12.100]
+Feb 18 21:13:14 z1 postfix/cleanup[3469]: 4A900E05D2: message-id=<20190218211314.4B2F9101310@z2.yanah.hier>
+Feb 18 21:13:14 z1 postfix/qmgr[1876]: 4A900E05D2: from=<u1@z1.yanah.hier>, size=535, nrcpt=1 (queue active)
+Feb 18 21:13:14 z1 postfix/smtpd[3464]: disconnect from dns-z2.z2.yanah.hier[192.168.12.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 18 21:13:14 z1 postfix/local[3470]: 4A900E05D2: to=<u2@z1.yanah.hier>, relay=local, delay=0.01, delays=0/0/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 21:13:14 z1 postfix/qmgr[1876]: 4A900E05D2: removed
+Feb 18 21:13:25 z1 postfix/smtpd[3464]: connect from dns-z2.z2.yanah.hier[192.168.12.100]
+Feb 18 21:13:25 z1 postfix/smtpd[3464]: C1E48E05D2: client=dns-z2.z2.yanah.hier[192.168.12.100]
+Feb 18 21:13:25 z1 postfix/cleanup[3469]: C1E48E05D2: message-id=<20190218211325.C1EBF101310@z2.yanah.hier>
+Feb 18 21:13:25 z1 postfix/qmgr[1876]: C1E48E05D2: from=<u1@z1.yanah.hier>, size=535, nrcpt=1 (queue active)
+Feb 18 21:13:25 z1 postfix/smtpd[3464]: disconnect from dns-z2.z2.yanah.hier[192.168.12.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 18 21:13:25 z1 postfix/local[3470]: C1E48E05D2: to=<u2@z1.yanah.hier>, relay=local, delay=0.01, delays=0/0/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 21:13:25 z1 postfix/qmgr[1876]: C1E48E05D2: removed
+Feb 18 21:15:35 z1 postfix/smtpd[3483]: connect from dns-z2.z2.yanah.hier[192.168.12.100]
+Feb 18 21:15:35 z1 postfix/smtpd[3483]: C133DE05D2: client=dns-z2.z2.yanah.hier[192.168.12.100]
+Feb 18 21:15:35 z1 postfix/cleanup[3486]: C133DE05D2: message-id=<20190218211535.B96AD101310@z2.yanah.hier>
+Feb 18 21:15:35 z1 postfix/qmgr[1876]: C133DE05D2: from=<u1@z1.yanah.hier>, size=535, nrcpt=1 (queue active)
+Feb 18 21:15:35 z1 postfix/smtpd[3483]: disconnect from dns-z2.z2.yanah.hier[192.168.12.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 18 21:15:35 z1 postfix/local[3487]: C133DE05D2: to=<u2@z1.yanah.hier>, relay=local, delay=0.01, delays=0.01/0/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 21:15:35 z1 postfix/qmgr[1876]: C133DE05D2: removed
+Feb 18 21:18:08 z1 dovecot: imap(u3): Logged out in=676 out=1718
+Feb 18 21:18:55 z1 postfix/anvil[3466]: statistics: max connection rate 3/60s for (smtp:192.168.12.100) at Feb 18 21:13:25
+Feb 18 21:18:55 z1 postfix/anvil[3466]: statistics: max connection count 1 for (smtp:192.168.12.100) at Feb 18 21:12:52
+Feb 18 21:18:55 z1 postfix/anvil[3466]: statistics: max cache size 1 at Feb 18 21:12:52

@@ -1,0 +1,4 @@
+# See man 5 aliases for format
+postmaster:    yanah@z1.yanah.hier
+root:	yanah@z1.yanah.hier
+everyone:	u1@z1.yanah.hier, u2@z1.yanah.hier, u3@z1.yanah.hier
