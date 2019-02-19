@@ -1,0 +1,548 @@
+Feb  5 15:08:00 dns-z2 postfix/postfix-script[2984]: starting the Postfix mail system
+Feb  5 15:08:00 dns-z2 postfix/master[2987]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb  5 15:13:56 dns-z2 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up without any protocols (core dumps disabled)
+Feb  5 15:13:56 dns-z2 dovecot: ssl-params: Generating SSL parameters
+Feb  5 15:13:58 dns-z2 dovecot: master: Warning: Killed with signal 15 (by pid=15672 uid=0 code=kill)
+Feb  5 15:13:58 dns-z2 dovecot: log: Warning: Killed with signal 15 (by pid=1 uid=0 code=kill)
+Feb  5 15:13:58 dns-z2 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap (core dumps disabled)
+Feb  5 15:13:58 dns-z2 dovecot: ssl-params: Generating SSL parameters
+Feb  5 15:13:59 dns-z2 dovecot: ssl-params: SSL parameters regeneration completed
+Feb  5 19:42:42 dns-z2 postfix/master[2987]: warning: unix_trigger_event: read timeout for service public/pickup
+Feb  5 19:42:42 dns-z2 postfix/master[2987]: warning: unix_trigger_event: read timeout for service public/pickup
+Feb  5 19:42:42 dns-z2 postfix/master[2987]: warning: unix_trigger_event: read timeout for service public/pickup
+Feb  5 19:42:42 dns-z2 postfix/master[2987]: warning: unix_trigger_event: read timeout for service public/pickup
+Feb  5 19:42:42 dns-z2 postfix/master[2987]: warning: unix_trigger_event: read timeout for service public/pickup
+Feb  5 19:45:06 dns-z2 postfix/master[2987]: warning: unix_trigger_event: read timeout for service public/pickup
+Feb  5 19:45:06 dns-z2 postfix/master[2987]: warning: unix_trigger_event: read timeout for service public/pickup
+Feb  5 19:45:06 dns-z2 postfix/master[2987]: warning: unix_trigger_event: read timeout for service public/pickup
+Feb  5 19:45:06 dns-z2 postfix/master[2987]: warning: unix_trigger_event: read timeout for service public/pickup
+Feb  5 19:45:06 dns-z2 postfix/master[2987]: warning: unix_trigger_event: read timeout for service public/pickup
+Feb  5 19:45:06 dns-z2 postfix/master[2987]: warning: unix_trigger_event: read timeout for service public/pickup
+Feb  5 20:34:32 dns-z2 postfix/master[2987]: warning: unix_trigger_event: read timeout for service public/pickup
+Feb  5 20:34:32 dns-z2 postfix/master[2987]: warning: unix_trigger_event: read timeout for service public/pickup
+Feb 10 19:24:41 dns-z2 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap (core dumps disabled)
+Feb 10 19:24:42 dns-z2 postfix/postfix-script[1175]: starting the Postfix mail system
+Feb 10 19:24:42 dns-z2 postfix/master[1178]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 10 19:35:53 dns-z2 postfix/postfix-script[5127]: refreshing the Postfix mail system
+Feb 10 19:35:53 dns-z2 postfix/master[1178]: reload -- version 3.3.0, configuration /etc/postfix
+Feb 13 22:11:01 dns-z2 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap (core dumps disabled)
+Feb 13 22:11:05 dns-z2 postfix/postfix-script[1110]: starting the Postfix mail system
+Feb 13 22:11:05 dns-z2 postfix/master[1114]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 09:44:13 dns-z2 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap (core dumps disabled)
+Feb 17 09:44:15 dns-z2 postfix/postfix-script[1278]: starting the Postfix mail system
+Feb 17 09:44:15 dns-z2 postfix/master[1282]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 09:46:46 dns-z2 postfix/smtpd[2094]: connect from unknown[192.168.13.99]
+Feb 17 09:46:46 dns-z2 postfix/smtpd[2094]: NOQUEUE: reject: RCPT from unknown[192.168.13.99]: 550 5.1.1 <u2@z2.yanah.hier>: Recipient address rejected: User unknown in local recipient table; from=<u1@z2.yanah.hier> to=<u2@z2.yanah.hier> proto=ESMTP helo=<[192.168.13.99]>
+Feb 17 09:46:57 dns-z2 postfix/smtpd[2094]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=0/1 quit=1 commands=5/6
+Feb 17 09:47:46 dns-z2 dovecot: master: Warning: Killed with signal 15 (by pid=2479 uid=0 code=kill)
+Feb 17 09:47:46 dns-z2 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap (core dumps disabled)
+Feb 17 09:47:48 dns-z2 dovecot: master: Warning: Killed with signal 15 (by pid=2676 uid=0 code=kill)
+Feb 17 09:47:48 dns-z2 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Feb 17 09:49:36 dns-z2 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.12.100, TLS: SSL_read() failed: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca: SSL alert number 48, session=<t68I7ROCgN7AqA1j>
+Feb 17 09:50:17 dns-z2 postfix/anvil[2099]: statistics: max connection rate 1/60s for (smtp:192.168.13.99) at Feb 17 09:46:46
+Feb 17 09:50:17 dns-z2 postfix/anvil[2099]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 17 09:46:46
+Feb 17 09:50:17 dns-z2 postfix/anvil[2099]: statistics: max cache size 1 at Feb 17 09:46:46
+Feb 17 09:50:38 dns-z2 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.12.100, TLS: SSL_read() failed: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca: SSL alert number 48, session=<cBe78BOCgt7AqA1j>
+Feb 17 09:52:33 dns-z2 dovecot: master: Warning: Killed with signal 15 (by pid=3129 uid=0 code=kill)
+Feb 17 09:52:33 dns-z2 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Feb 17 09:53:44 dns-z2 postfix/smtpd[3223]: connect from unknown[192.168.13.99]
+Feb 17 09:53:44 dns-z2 postfix/smtpd[3223]: NOQUEUE: reject: RCPT from unknown[192.168.13.99]: 550 5.1.1 <u2@z2.yanah.hier>: Recipient address rejected: User unknown in local recipient table; from=<u1@z2.yanah.hier> to=<u2@z2.yanah.hier> proto=ESMTP helo=<[192.168.13.99]>
+Feb 17 09:53:45 dns-z2 postfix/smtpd[3223]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=0/1 quit=1 commands=5/6
+Feb 17 09:54:04 dns-z2 dovecot: imap-login: Disconnected (auth failed, 2 attempts in 11 secs): user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, TLS, session=<s4Rd/BOCht7AqA1j>
+Feb 17 09:54:14 dns-z2 postfix/smtpd[3223]: connect from unknown[192.168.13.99]
+Feb 17 09:54:14 dns-z2 postfix/smtpd[3223]: NOQUEUE: reject: RCPT from unknown[192.168.13.99]: 550 5.1.1 <u2@z2.yanah.hier>: Recipient address rejected: User unknown in local recipient table; from=<u1@z2.yanah.hier> to=<u2@z2.yanah.hier> proto=ESMTP helo=<[192.168.13.99]>
+Feb 17 09:54:15 dns-z2 postfix/smtpd[3223]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=0/1 quit=1 commands=5/6
+Feb 17 09:54:44 dns-z2 dovecot: imap-login: Disconnected (auth failed, 2 attempts in 12 secs): user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, TLS, session=<6dW0/hOCit7AqA1j>
+Feb 17 09:57:35 dns-z2 postfix/anvil[3225]: statistics: max connection rate 2/60s for (smtp:192.168.13.99) at Feb 17 09:54:14
+Feb 17 09:57:35 dns-z2 postfix/anvil[3225]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 17 09:53:44
+Feb 17 09:57:35 dns-z2 postfix/anvil[3225]: statistics: max cache size 1 at Feb 17 09:53:44
+Feb 17 10:04:18 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=4022, TLS, session=<WrrnGBSC2JfAqA1j>
+Feb 17 10:04:18 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:04:18 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=341
+Feb 17 10:04:18 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=4025, TLS, session=<+cWZIRSC2pfAqA1j>
+Feb 17 10:04:18 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:04:18 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:05:26 dns-z2 postfix/postfix-script[4116]: stopping the Postfix mail system
+Feb 17 10:05:26 dns-z2 postfix/master[1282]: terminating on signal 15
+Feb 17 10:05:26 dns-z2 postfix/postfix-script[4271]: starting the Postfix mail system
+Feb 17 10:05:26 dns-z2 postfix/master[4273]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 10:06:27 dns-z2 postfix/postfix-script[4391]: stopping the Postfix mail system
+Feb 17 10:06:27 dns-z2 postfix/master[4273]: terminating on signal 15
+Feb 17 10:06:28 dns-z2 postfix/postfix-script[4546]: starting the Postfix mail system
+Feb 17 10:06:28 dns-z2 postfix/master[4548]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 10:06:47 dns-z2 postfix/smtpd[4561]: connect from unknown[192.168.13.99]
+Feb 17 10:06:47 dns-z2 postfix/smtpd[4561]: AB21B101316: client=unknown[192.168.13.99]
+Feb 17 10:06:47 dns-z2 postfix/cleanup[4566]: AB21B101316: message-id=<88010cae-68f3-f084-3c5e-c01c5c505bd3@z2.yanah.hier>
+Feb 17 10:06:47 dns-z2 postfix/qmgr[4559]: AB21B101316: from=<u1@z2.yanah.hier>, size=582, nrcpt=1 (queue active)
+Feb 17 10:06:47 dns-z2 postfix/local[4567]: AB21B101316: to=<u2@z2.yanah.hier>, relay=local, delay=0.04, delays=0.02/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 10:06:47 dns-z2 postfix/qmgr[4559]: AB21B101316: removed
+Feb 17 10:06:47 dns-z2 postfix/smtpd[4561]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 17 10:06:47 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=4572, TLS, session=<ZXCEKhSC5pfAqA1j>
+Feb 17 10:06:47 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:06:47 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:06:47 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=4574, TLS, session=<dM6FKhSC6JfAqA1j>
+Feb 17 10:06:47 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:06:47 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:10:07 dns-z2 postfix/anvil[4564]: statistics: max connection rate 1/60s for (smtp:192.168.13.99) at Feb 17 10:06:47
+Feb 17 10:10:07 dns-z2 postfix/anvil[4564]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 17 10:06:47
+Feb 17 10:10:07 dns-z2 postfix/anvil[4564]: statistics: max cache size 1 at Feb 17 10:06:47
+Feb 17 10:11:42 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=4919, TLS, session=<UW8RPBSC8pfAqA1j>
+Feb 17 10:11:42 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:11:42 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:11:42 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=4921, TLS, session=<g+USPBSC9JfAqA1j>
+Feb 17 10:11:42 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:11:42 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:12:01 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=4923, TLS, session=<foAwPRSC9pfAqA1j>
+Feb 17 10:12:01 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:12:01 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:12:01 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=4925, TLS, session=<AioyPRSC+JfAqA1j>
+Feb 17 10:12:01 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:12:01 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:14:46 dns-z2 postfix/postfix-script[5168]: stopping the Postfix mail system
+Feb 17 10:14:46 dns-z2 postfix/master[4548]: terminating on signal 15
+Feb 17 10:14:46 dns-z2 postfix/postfix-script[5323]: starting the Postfix mail system
+Feb 17 10:14:46 dns-z2 postfix/master[5325]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 10:14:52 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=5342, TLS, session=<CttgRxSC+pfAqA1j>
+Feb 17 10:14:52 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:14:52 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:14:52 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=5344, TLS, session=<MyxiRxSC/JfAqA1j>
+Feb 17 10:14:52 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:14:52 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:15:42 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=5416, TLS, session=<d/ddShSC/pfAqA1j>
+Feb 17 10:15:42 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:15:42 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:15:42 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=5418, TLS, session=<+c1fShSCAJjAqA1j>
+Feb 17 10:15:42 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:15:42 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:15:48 dns-z2 postfix/smtpd[5419]: connect from unknown[192.168.13.99]
+Feb 17 10:15:48 dns-z2 postfix/smtpd[5419]: 88DCE101316: client=unknown[192.168.13.99]
+Feb 17 10:15:48 dns-z2 postfix/cleanup[5424]: 88DCE101316: message-id=<d688a740-2ef0-a462-97cb-2aae601db300@z2.yanah.hier>
+Feb 17 10:15:48 dns-z2 postfix/qmgr[5336]: 88DCE101316: from=<u1@z2.yanah.hier>, size=582, nrcpt=1 (queue active)
+Feb 17 10:15:48 dns-z2 postfix/smtpd[5419]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 17 10:15:48 dns-z2 postfix/local[5425]: 88DCE101316: to=<u2@z2.yanah.hier>, relay=local, delay=0.07, delays=0.06/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 10:15:48 dns-z2 postfix/qmgr[5336]: 88DCE101316: removed
+Feb 17 10:15:48 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=5427, TLS, session=<E6vAShSCBJjAqA1j>
+Feb 17 10:15:48 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:15:48 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:15:48 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=5429, TLS, session=<CO7BShSCBpjAqA1j>
+Feb 17 10:15:48 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:15:48 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:19:08 dns-z2 postfix/anvil[5422]: statistics: max connection rate 1/60s for (smtp:192.168.13.99) at Feb 17 10:15:48
+Feb 17 10:19:08 dns-z2 postfix/anvil[5422]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 17 10:15:48
+Feb 17 10:19:08 dns-z2 postfix/anvil[5422]: statistics: max cache size 1 at Feb 17 10:15:48
+Feb 17 10:19:58 dns-z2 postfix/postfix-script[5729]: stopping the Postfix mail system
+Feb 17 10:19:58 dns-z2 postfix/master[5325]: terminating on signal 15
+Feb 17 10:19:58 dns-z2 postfix/postfix-script[5884]: starting the Postfix mail system
+Feb 17 10:19:58 dns-z2 postfix/master[5886]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 10:20:18 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=5973, TLS, session=<EqHVWhSCYsvAqA1j>
+Feb 17 10:20:18 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:20:18 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:20:18 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=5975, TLS, session=<1OTWWhSCZMvAqA1j>
+Feb 17 10:20:18 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:20:18 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:20:37 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=5977, TLS, session=<bLnzWxSCasvAqA1j>
+Feb 17 10:20:37 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:20:37 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:20:37 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=5979, TLS, session=<BFz1WxSCbMvAqA1j>
+Feb 17 10:20:37 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:20:37 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:20:40 dns-z2 postfix/smtpd[5980]: connect from unknown[192.168.13.99]
+Feb 17 10:20:40 dns-z2 postfix/smtpd[5980]: 68FCF101316: client=unknown[192.168.13.99]
+Feb 17 10:20:40 dns-z2 postfix/cleanup[5985]: 68FCF101316: message-id=<84fef65a-2a1b-2aff-e8bf-641b57220ad5@z2.yanah.hier>
+Feb 17 10:20:40 dns-z2 postfix/qmgr[5897]: 68FCF101316: from=<u1@z2.yanah.hier>, size=582, nrcpt=1 (queue active)
+Feb 17 10:20:40 dns-z2 postfix/smtpd[5980]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 17 10:20:40 dns-z2 postfix/local[5986]: 68FCF101316: to=<u2@z2.yanah.hier>, relay=local, delay=0.03, delays=0.01/0/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 10:20:40 dns-z2 postfix/qmgr[5897]: 68FCF101316: removed
+Feb 17 10:20:40 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=5988, TLS, session=<1TMmXBSCcMvAqA1j>
+Feb 17 10:20:40 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:20:40 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:20:40 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=5990, TLS, session=<zWcnXBSCcsvAqA1j>
+Feb 17 10:20:40 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:20:40 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:24:00 dns-z2 postfix/anvil[5983]: statistics: max connection rate 1/60s for (smtp:192.168.13.99) at Feb 17 10:20:40
+Feb 17 10:24:00 dns-z2 postfix/anvil[5983]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 17 10:20:40
+Feb 17 10:24:00 dns-z2 postfix/anvil[5983]: statistics: max cache size 1 at Feb 17 10:20:40
+Feb 17 10:27:14 dns-z2 postfix/smtpd[6471]: connect from unknown[192.168.13.99]
+Feb 17 10:27:14 dns-z2 postfix/smtpd[6471]: 6EB26101316: client=unknown[192.168.13.99]
+Feb 17 10:27:14 dns-z2 postfix/cleanup[6475]: 6EB26101316: message-id=<58b4afb5-5ef4-c50c-0a0b-21f82eb0a821@z2.yanah.hier>
+Feb 17 10:27:14 dns-z2 postfix/qmgr[5897]: 6EB26101316: from=<u1@z2.yanah.hier>, size=582, nrcpt=1 (queue active)
+Feb 17 10:27:14 dns-z2 postfix/local[6476]: 6EB26101316: to=<u2@z2.yanah.hier>, relay=local, delay=0.02, delays=0.01/0/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 10:27:14 dns-z2 postfix/qmgr[5897]: 6EB26101316: removed
+Feb 17 10:27:14 dns-z2 postfix/smtpd[6471]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 17 10:27:14 dns-z2 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.12.100, TLS, session=<TZeicxSCesvAqA1j>
+Feb 17 10:28:05 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=6550, TLS, session=<kBaxdhSCfMvAqA1j>
+Feb 17 10:28:05 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:28:05 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:28:05 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=6552, TLS, session=<OMKxdhSCfsvAqA1j>
+Feb 17 10:28:05 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:28:05 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:30:34 dns-z2 postfix/anvil[6473]: statistics: max connection rate 1/60s for (smtp:192.168.13.99) at Feb 17 10:27:14
+Feb 17 10:30:34 dns-z2 postfix/anvil[6473]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 17 10:27:14
+Feb 17 10:30:34 dns-z2 postfix/anvil[6473]: statistics: max cache size 1 at Feb 17 10:27:14
+Feb 17 10:31:23 dns-z2 postfix/smtpd[6759]: connect from unknown[192.168.13.99]
+Feb 17 10:31:23 dns-z2 postfix/smtpd[6759]: 9DEEF101316: client=unknown[192.168.13.99]
+Feb 17 10:31:23 dns-z2 postfix/cleanup[6763]: 9DEEF101316: message-id=<493e0199-e170-ff18-87fc-a9d1c667f933@z2.yanah.hier>
+Feb 17 10:31:23 dns-z2 postfix/qmgr[5897]: 9DEEF101316: from=<u1@z2.yanah.hier>, size=580, nrcpt=1 (queue active)
+Feb 17 10:31:23 dns-z2 postfix/smtpd[6759]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 17 10:31:23 dns-z2 postfix/local[6764]: 9DEEF101316: to=<u2@z2.yanah.hier>, relay=local, delay=0.12, delays=0.11/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 10:31:23 dns-z2 postfix/qmgr[5897]: 9DEEF101316: removed
+Feb 17 10:31:23 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=6769, TLS, session=<tTB+ghSCgsvAqA1j>
+Feb 17 10:31:23 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:31:23 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:31:23 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=6771, TLS, session=<1q1/ghSChMvAqA1j>
+Feb 17 10:31:23 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:31:23 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:31:54 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=6773, TLS, session=<yfJRhBSChsvAqA1j>
+Feb 17 10:31:54 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:31:54 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:31:54 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=6775, TLS, session=<kVNThBSCiMvAqA1j>
+Feb 17 10:31:54 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:31:54 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:34:17 dns-z2 postfix/smtpd[6986]: connect from unknown[192.168.13.99]
+Feb 17 10:34:17 dns-z2 postfix/smtpd[6986]: 70061101380: client=unknown[192.168.13.99]
+Feb 17 10:34:17 dns-z2 postfix/cleanup[6989]: 70061101380: message-id=<13aab18b-0934-d157-1cf6-774752bc13f1@z2.yanah.hier>
+Feb 17 10:34:17 dns-z2 postfix/qmgr[5897]: 70061101380: from=<u1@z2.yanah.hier>, size=582, nrcpt=1 (queue active)
+Feb 17 10:34:17 dns-z2 postfix/smtpd[6986]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 17 10:34:17 dns-z2 postfix/local[6990]: 70061101380: to=<u2@z2.yanah.hier>, relay=local, delay=0.03, delays=0.01/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 10:34:17 dns-z2 postfix/qmgr[5897]: 70061101380: removed
+Feb 17 10:34:17 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=6995, TLS, session=<Ji7ZjBSCjMvAqA1j>
+Feb 17 10:34:17 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:34:17 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:34:17 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=6997, TLS, session=<dT7bjBSCjsvAqA1j>
+Feb 17 10:34:17 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:34:17 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:34:45 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=6999, TLS, session=<g1qBjhSCkMvAqA1j>
+Feb 17 10:34:45 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:34:45 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:34:45 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=7001, TLS, session=<Qf6CjhSCksvAqA1j>
+Feb 17 10:34:45 dns-z2 dovecot: imap(u1): Error: Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:)
+Feb 17 10:34:45 dns-z2 dovecot: imap(u1): Namespace '': Ambiguous mail location setting, don't know what to do with it: maildir~/Maildir (try prefixing it with mbox: or maildir:) in=0 out=340
+Feb 17 10:36:37 dns-z2 postfix/postfix-script[1144]: starting the Postfix mail system
+Feb 17 10:36:37 dns-z2 postfix/master[1149]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 10:56:49 dns-z2 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Feb 17 10:57:18 dns-z2 postfix/smtpd[3118]: connect from unknown[192.168.13.99]
+Feb 17 10:57:18 dns-z2 postfix/smtpd[3118]: 12C5F101380: client=unknown[192.168.13.99]
+Feb 17 10:57:18 dns-z2 postfix/cleanup[3125]: 12C5F101380: message-id=<89e0882c-ada5-a423-8eb9-878af72c98fb@z2.yanah.hier>
+Feb 17 10:57:18 dns-z2 postfix/qmgr[1158]: 12C5F101380: from=<u1@z2.yanah.hier>, size=582, nrcpt=1 (queue active)
+Feb 17 10:57:18 dns-z2 postfix/smtpd[3118]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 17 10:57:18 dns-z2 postfix/local[3126]: 12C5F101380: to=<u2@z2.yanah.hier>, relay=local, delay=0.1, delays=0.03/0.01/0/0.06, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 10:57:18 dns-z2 postfix/qmgr[1158]: 12C5F101380: removed
+Feb 17 10:57:18 dns-z2 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.13.99, lip=192.168.12.100, TLS, session=<jUok3xSCNpfAqA1j>
+Feb 17 10:57:32 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=3133, TLS, session=<wxQA4BSCOJfAqA1j>
+Feb 17 10:57:43 dns-z2 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=3136, TLS, session=<4A+f4BSCOpfAqA1j>
+Feb 17 11:00:38 dns-z2 postfix/anvil[3123]: statistics: max connection rate 1/60s for (smtp:192.168.13.99) at Feb 17 10:57:18
+Feb 17 11:00:38 dns-z2 postfix/anvil[3123]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 17 10:57:18
+Feb 17 11:00:38 dns-z2 postfix/anvil[3123]: statistics: max cache size 1 at Feb 17 10:57:18
+Feb 17 14:18:42 dns-z2 postfix/smtpd[16970]: connect from unknown[192.168.13.99]
+Feb 17 14:18:42 dns-z2 postfix/smtpd[16970]: 12880101380: client=unknown[192.168.13.99]
+Feb 17 14:18:42 dns-z2 postfix/cleanup[16974]: 12880101380: message-id=<1f9832c0-c1fd-b0eb-83a7-68637bf0d429@z2.yanah.hier>
+Feb 17 14:18:42 dns-z2 postfix/qmgr[1158]: 12880101380: from=<u1@z2.yanah.hier>, size=592, nrcpt=1 (queue active)
+Feb 17 14:18:42 dns-z2 postfix/local[16975]: 12880101380: to=<u2@z2.yanah.hier>, relay=local, delay=0.04, delays=0.02/0/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 14:18:42 dns-z2 postfix/qmgr[1158]: 12880101380: removed
+Feb 17 14:18:42 dns-z2 postfix/smtpd[16970]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 17 14:18:42 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=16980, TLS, session=<l8xorxeCepjAqA1j>
+Feb 17 14:18:54 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=16982, TLS, session=<96ImsBeCfJjAqA1j>
+Feb 17 14:22:02 dns-z2 postfix/anvil[16972]: statistics: max connection rate 1/60s for (smtp:192.168.13.99) at Feb 17 14:18:42
+Feb 17 14:22:02 dns-z2 postfix/anvil[16972]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 17 14:18:42
+Feb 17 14:22:02 dns-z2 postfix/anvil[16972]: statistics: max cache size 1 at Feb 17 14:18:42
+Feb 17 14:48:08 dns-z2 dovecot: imap(u1): Logged out in=511 out=548
+Feb 17 16:54:26 dns-z2 dovecot: imap: Warning: Time jumped forwards 48 seconds
+Feb 17 16:54:26 dns-z2 dovecot: imap: Warning: Time jumped forwards 47 seconds
+Feb 17 16:54:26 dns-z2 dovecot: imap: Warning: Time jumped forwards 47 seconds
+Feb 17 17:57:45 dns-z2 postfix/postfix-script[32103]: stopping the Postfix mail system
+Feb 17 17:57:45 dns-z2 postfix/master[1149]: terminating on signal 15
+Feb 17 17:57:45 dns-z2 postfix/postfix-script[32258]: starting the Postfix mail system
+Feb 17 17:57:45 dns-z2 postfix/master[32260]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 18:06:40 dns-z2 postfix/postfix-script[32913]: stopping the Postfix mail system
+Feb 17 18:06:40 dns-z2 postfix/master[32260]: terminating on signal 15
+Feb 17 18:06:40 dns-z2 postfix/postfix-script[33068]: starting the Postfix mail system
+Feb 17 18:06:40 dns-z2 postfix/master[33070]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 18:25:43 dns-z2 postfix/postfix-script[34407]: stopping the Postfix mail system
+Feb 17 18:25:43 dns-z2 postfix/master[33070]: terminating on signal 15
+Feb 17 18:25:44 dns-z2 postfix/postfix-script[34562]: starting the Postfix mail system
+Feb 17 18:25:44 dns-z2 postfix/master[34564]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 18:31:21 dns-z2 postfix/smtpd[34992]: connect from unknown[192.168.13.99]
+Feb 17 18:31:21 dns-z2 postfix/smtpd[34992]: B2FBB1013B2: client=unknown[192.168.13.99]
+Feb 17 18:31:21 dns-z2 postfix/cleanup[34997]: B2FBB1013B2: message-id=<8eec6a86-7b37-6c5c-00df-eeb93ab81330@z2.yanah.hier>
+Feb 17 18:31:21 dns-z2 postfix/qmgr[34575]: B2FBB1013B2: from=<u1@z2.yanah.hier>, size=589, nrcpt=1 (queue active)
+Feb 17 18:31:21 dns-z2 postfix/qmgr[34575]: warning: connect to transport private/smpt: No such file or directory
+Feb 17 18:31:21 dns-z2 postfix/smtpd[34992]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 17 18:31:21 dns-z2 postfix/error[34998]: B2FBB1013B2: to=<u2@z1.yanah.hier>, relay=none, delay=0.07, delays=0.01/0.01/0/0.05, dsn=4.3.0, status=deferred (mail transport unavailable)
+Feb 17 18:31:21 dns-z2 dovecot: imap(u1): Connection closed (IDLE running for 0.001 + waiting input for 0.001 secs, 2 B in + 10+10 B out, state=wait-input) in=7469 out=29614
+Feb 17 18:31:40 dns-z2 dovecot: imap(u1): Logged out in=6697 out=33565
+Feb 17 18:31:40 dns-z2 dovecot: imap(u2): Logged out in=14889 out=69829
+Feb 17 18:32:30 dns-z2 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Feb 17 18:32:30 dns-z2 postfix/postfix-script[1138]: starting the Postfix mail system
+Feb 17 18:32:30 dns-z2 postfix/master[1145]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 18:34:22 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=1619, TLS, session=<Vw3DQRuC3qzAqA1j>
+Feb 17 18:34:24 dns-z2 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=1620, TLS, session=<G5LiQRuC4KzAqA1j>
+Feb 17 18:34:36 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=1622, TLS, session=<2VCQQhuC+qzAqA1j>
+Feb 17 18:35:12 dns-z2 postfix/smtpd[1691]: connect from unknown[192.168.13.99]
+Feb 17 18:35:12 dns-z2 postfix/smtpd[1691]: 2AE781019E4: client=unknown[192.168.13.99]
+Feb 17 18:35:12 dns-z2 postfix/cleanup[1698]: 2AE781019E4: message-id=<d861e9d5-6e99-1890-b4a1-c82c2430d992@z2.yanah.hier>
+Feb 17 18:35:12 dns-z2 postfix/qmgr[1157]: 2AE781019E4: from=<u1@z2.yanah.hier>, size=584, nrcpt=1 (queue active)
+Feb 17 18:35:12 dns-z2 postfix/qmgr[1157]: warning: connect to transport private/smpt: No such file or directory
+Feb 17 18:35:12 dns-z2 postfix/smtpd[1691]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 17 18:35:12 dns-z2 postfix/error[1699]: 2AE781019E4: to=<u2@z1.yanah.hier>, relay=none, delay=0.07, delays=0.03/0.01/0/0.02, dsn=4.3.0, status=deferred (mail transport unavailable)
+Feb 17 18:35:12 dns-z2 dovecot: imap(u1): Connection closed (IDLE running for 0.001 + waiting input for 0.001 secs, 2 B in + 10+10 B out, state=wait-input) in=800 out=1711
+Feb 17 18:35:12 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=1704, TLS, session=<br26RBuCBK3AqA1j>
+Feb 17 18:37:22 dns-z2 postfix/qmgr[1157]: B2FBB1013B2: from=<u1@z2.yanah.hier>, size=589, nrcpt=1 (queue active)
+Feb 17 18:37:22 dns-z2 postfix/qmgr[1157]: warning: connect to transport private/smpt: No such file or directory
+Feb 17 18:37:22 dns-z2 postfix/error[1844]: B2FBB1013B2: to=<u2@z1.yanah.hier>, relay=none, delay=361, delays=361/0.03/0/0.02, dsn=4.3.0, status=deferred (mail transport unavailable)
+Feb 17 18:38:32 dns-z2 postfix/anvil[1696]: statistics: max connection rate 1/60s for (smtp:192.168.13.99) at Feb 17 18:35:12
+Feb 17 18:38:32 dns-z2 postfix/anvil[1696]: statistics: max connection count 1 for (smtp:192.168.13.99) at Feb 17 18:35:12
+Feb 17 18:38:32 dns-z2 postfix/anvil[1696]: statistics: max cache size 1 at Feb 17 18:35:12
+Feb 17 18:42:22 dns-z2 postfix/qmgr[1157]: 2AE781019E4: from=<u1@z2.yanah.hier>, size=584, nrcpt=1 (queue active)
+Feb 17 18:42:22 dns-z2 postfix/qmgr[1157]: warning: connect to transport private/smpt: No such file or directory
+Feb 17 18:42:22 dns-z2 postfix/error[2191]: 2AE781019E4: to=<u2@z1.yanah.hier>, relay=none, delay=430, delays=430/0.03/0/0.02, dsn=4.3.0, status=deferred (mail transport unavailable)
+Feb 17 18:47:22 dns-z2 postfix/qmgr[1157]: B2FBB1013B2: from=<u1@z2.yanah.hier>, size=589, nrcpt=1 (queue active)
+Feb 17 18:47:22 dns-z2 postfix/qmgr[1157]: warning: connect to transport private/smpt: No such file or directory
+Feb 17 18:47:22 dns-z2 postfix/error[2563]: B2FBB1013B2: to=<u2@z1.yanah.hier>, relay=none, delay=961, delays=961/0.03/0/0.01, dsn=4.3.0, status=deferred (mail transport unavailable)
+Feb 17 18:51:14 dns-z2 postfix/postfix-script[2861]: stopping the Postfix mail system
+Feb 17 18:51:14 dns-z2 postfix/master[1145]: terminating on signal 15
+Feb 17 18:51:15 dns-z2 postfix/postfix-script[3016]: starting the Postfix mail system
+Feb 17 18:51:15 dns-z2 postfix/master[3018]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 18:51:15 dns-z2 postfix/qmgr[3029]: 2AE781019E4: from=<u1@z2.yanah.hier>, size=584, nrcpt=1 (queue active)
+Feb 17 18:51:15 dns-z2 postfix/qmgr[3029]: warning: connect to transport private/smpt: No such file or directory
+Feb 17 18:51:15 dns-z2 postfix/error[3033]: 2AE781019E4: to=<u2@z1.yanah.hier>, relay=none, delay=963, delays=963/0.01/0/0.01, dsn=4.3.0, status=deferred (mail transport unavailable)
+Feb 17 19:00:56 dns-z2 postfix/postfix-script[3678]: stopping the Postfix mail system
+Feb 17 19:00:56 dns-z2 postfix/master[3018]: terminating on signal 15
+Feb 17 19:00:56 dns-z2 postfix/postfix-script[3833]: starting the Postfix mail system
+Feb 17 19:00:56 dns-z2 postfix/master[3835]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 19:05:56 dns-z2 postfix/qmgr[3846]: B2FBB1013B2: from=<u1@z2.yanah.hier>, size=589, nrcpt=1 (queue active)
+Feb 17 19:05:56 dns-z2 postfix/smtp[4197]: B2FBB1013B2: to=<u2@z1.yanah.hier>, relay=192.168.11.103[192.168.11.103]:25, delay=2075, delays=2074/0.02/0.1/0.02, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 4F6EFE0AE0)
+Feb 17 19:05:56 dns-z2 postfix/qmgr[3846]: B2FBB1013B2: removed
+Feb 17 19:10:56 dns-z2 postfix/qmgr[3846]: 2AE781019E4: from=<u1@z2.yanah.hier>, size=584, nrcpt=1 (queue active)
+Feb 17 19:10:56 dns-z2 postfix/smtp[4555]: 2AE781019E4: to=<u2@z1.yanah.hier>, relay=192.168.11.103[192.168.11.103]:25, delay=2144, delays=2144/0.03/0.12/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 840ADE0AE0)
+Feb 17 19:10:56 dns-z2 postfix/qmgr[3846]: 2AE781019E4: removed
+Feb 17 19:40:22 dns-z2 postfix/postfix-script[6733]: stopping the Postfix mail system
+Feb 17 19:40:22 dns-z2 postfix/master[3835]: terminating on signal 15
+Feb 17 19:40:23 dns-z2 postfix/postfix-script[6888]: starting the Postfix mail system
+Feb 17 19:40:23 dns-z2 postfix/master[6890]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 20:05:32 dns-z2 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Feb 17 20:05:33 dns-z2 postfix/postfix-script[1190]: starting the Postfix mail system
+Feb 17 20:05:33 dns-z2 postfix/master[1194]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 17 20:07:24 dns-z2 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=1616, TLS, session=<AtpyjhyCHK3AqA1j>
+Feb 17 20:09:08 dns-z2 postfix/smtpd[1753]: connect from unknown[192.168.11.100]
+Feb 17 20:09:08 dns-z2 postfix/smtpd[1753]: 8D4D91013B2: client=unknown[192.168.11.100]
+Feb 17 20:09:08 dns-z2 postfix/cleanup[1760]: 8D4D91013B2: message-id=<e9941017-70e9-1868-640b-0e439e0d4700@z1.yanah.hier>
+Feb 17 20:09:08 dns-z2 postfix/qmgr[1209]: 8D4D91013B2: from=<u1@z1.yanah.hier>, size=759, nrcpt=1 (queue active)
+Feb 17 20:09:08 dns-z2 postfix/smtpd[1753]: disconnect from unknown[192.168.11.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 17 20:09:08 dns-z2 postfix/local[1761]: 8D4D91013B2: to=<u2@z2.yanah.hier>, relay=local, delay=0.07, delays=0.03/0.02/0/0.02, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 20:09:08 dns-z2 postfix/qmgr[1209]: 8D4D91013B2: removed
+Feb 17 20:12:26 dns-z2 postfix/smtpd[1968]: connect from unknown[192.168.13.99]
+Feb 17 20:12:26 dns-z2 postfix/smtpd[1968]: 973B81013B2: client=unknown[192.168.13.99]
+Feb 17 20:12:26 dns-z2 postfix/cleanup[1971]: 973B81013B2: message-id=<12270e44-98d4-4f5c-c11a-21f49cd23b6c@z2.yanah.hier>
+Feb 17 20:12:26 dns-z2 postfix/qmgr[1209]: 973B81013B2: from=<u1@z2.yanah.hier>, size=592, nrcpt=1 (queue active)
+Feb 17 20:12:26 dns-z2 postfix/smtpd[1968]: disconnect from unknown[192.168.13.99] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Feb 17 20:12:26 dns-z2 postfix/smtp[1972]: 973B81013B2: to=<u2@z1.yanah.hier>, relay=192.168.11.103[192.168.11.103]:25, delay=0.07, delays=0.02/0.02/0.02/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as A7360E0AE0)
+Feb 17 20:12:26 dns-z2 postfix/qmgr[1209]: 973B81013B2: removed
+Feb 17 20:12:26 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=1975, TLS, session=<A3d7oByCOK3AqA1j>
+Feb 17 20:12:26 dns-z2 dovecot: imap(u1): Logged out in=504 out=548
+Feb 17 20:12:45 dns-z2 postfix/smtpd[1968]: connect from unknown[192.168.11.100]
+Feb 17 20:12:45 dns-z2 postfix/smtpd[1968]: B93541019E4: client=unknown[192.168.11.100]
+Feb 17 20:12:45 dns-z2 postfix/cleanup[1971]: B93541019E4: message-id=<e620db0c-99dc-54f4-0b49-e3403ff8b361@z1.yanah.hier>
+Feb 17 20:12:45 dns-z2 postfix/qmgr[1209]: B93541019E4: from=<u1@z1.yanah.hier>, size=769, nrcpt=1 (queue active)
+Feb 17 20:12:45 dns-z2 postfix/smtpd[1968]: disconnect from unknown[192.168.11.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 17 20:12:45 dns-z2 postfix/local[1976]: B93541019E4: to=<u2@z2.yanah.hier>, relay=local, delay=0.03, delays=0.01/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 20:12:45 dns-z2 postfix/qmgr[1209]: B93541019E4: removed
+Feb 17 20:12:57 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=1978, TLS, session=<O3lVohyCOq3AqA1j>
+Feb 17 20:14:40 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=2119, TLS, session=<FKN6qByCPK3AqA1j>
+Feb 17 20:16:05 dns-z2 postfix/anvil[1758]: statistics: max connection rate 1/60s for (smtp:192.168.11.100) at Feb 17 20:09:08
+Feb 17 20:16:05 dns-z2 postfix/anvil[1758]: statistics: max connection count 1 for (smtp:192.168.11.100) at Feb 17 20:09:08
+Feb 17 20:16:05 dns-z2 postfix/anvil[1758]: statistics: max cache size 2 at Feb 17 20:12:45
+Feb 17 20:17:45 dns-z2 postfix/smtpd[2335]: connect from unknown[192.168.11.100]
+Feb 17 20:17:45 dns-z2 postfix/smtpd[2335]: 23D531019E4: client=unknown[192.168.11.100]
+Feb 17 20:17:45 dns-z2 postfix/cleanup[2339]: 23D531019E4: message-id=<ac449174-8a1b-425c-4dcb-54fd7fe2a870@z1.yanah.hier>
+Feb 17 20:17:45 dns-z2 postfix/qmgr[1209]: 23D531019E4: from=<u1@z1.yanah.hier>, size=765, nrcpt=1 (queue active)
+Feb 17 20:17:45 dns-z2 postfix/smtpd[2335]: disconnect from unknown[192.168.11.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 17 20:17:45 dns-z2 postfix/local[2340]: 23D531019E4: to=<u2@z2.yanah.hier>, relay=local, delay=0.03, delays=0.02/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 20:17:45 dns-z2 postfix/qmgr[1209]: 23D531019E4: removed
+Feb 17 20:21:05 dns-z2 postfix/anvil[2337]: statistics: max connection rate 1/60s for (smtp:192.168.11.100) at Feb 17 20:17:45
+Feb 17 20:21:05 dns-z2 postfix/anvil[2337]: statistics: max connection count 1 for (smtp:192.168.11.100) at Feb 17 20:17:45
+Feb 17 20:21:05 dns-z2 postfix/anvil[2337]: statistics: max cache size 1 at Feb 17 20:17:45
+Feb 17 20:27:46 dns-z2 postfix/smtpd[3048]: connect from unknown[192.168.11.100]
+Feb 17 20:27:46 dns-z2 postfix/smtpd[3048]: 4DFBF10125E: client=unknown[192.168.11.100]
+Feb 17 20:27:46 dns-z2 postfix/cleanup[3052]: 4DFBF10125E: message-id=<c462b212-562d-b514-db1c-1e214518eca7@z1.yanah.hier>
+Feb 17 20:27:46 dns-z2 postfix/qmgr[1209]: 4DFBF10125E: from=<u1@z1.yanah.hier>, size=770, nrcpt=1 (queue active)
+Feb 17 20:27:46 dns-z2 postfix/smtpd[3048]: disconnect from unknown[192.168.11.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 17 20:27:46 dns-z2 postfix/local[3053]: 4DFBF10125E: to=<u2@z2.yanah.hier>, relay=local, delay=0.02, delays=0.01/0/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 20:27:46 dns-z2 postfix/qmgr[1209]: 4DFBF10125E: removed
+Feb 17 20:31:06 dns-z2 postfix/anvil[3050]: statistics: max connection rate 1/60s for (smtp:192.168.11.100) at Feb 17 20:27:46
+Feb 17 20:31:06 dns-z2 postfix/anvil[3050]: statistics: max connection count 1 for (smtp:192.168.11.100) at Feb 17 20:27:46
+Feb 17 20:31:06 dns-z2 postfix/anvil[3050]: statistics: max cache size 1 at Feb 17 20:27:46
+Feb 17 20:47:45 dns-z2 postfix/smtpd[23599]: connect from unknown[192.168.11.100]
+Feb 17 20:47:45 dns-z2 postfix/smtpd[23601]: connect from unknown[192.168.11.100]
+Feb 17 20:47:45 dns-z2 postfix/smtpd[23599]: 5984A101248: client=unknown[192.168.11.100]
+Feb 17 20:47:45 dns-z2 postfix/cleanup[23604]: 5984A101248: message-id=<c3576ac3-a005-fc9c-92de-a934bb7d10e7@z1.yanah.hier>
+Feb 17 20:47:45 dns-z2 postfix/qmgr[1209]: 5984A101248: from=<u1@z1.yanah.hier>, size=774, nrcpt=1 (queue active)
+Feb 17 20:47:45 dns-z2 postfix/smtpd[23601]: 5AF7310125E: client=unknown[192.168.11.100]
+Feb 17 20:47:45 dns-z2 postfix/smtpd[23599]: disconnect from unknown[192.168.11.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 17 20:47:45 dns-z2 postfix/cleanup[23604]: 5AF7310125E: message-id=<f24bf0f9-dde0-5269-79dd-77f064f8341c@z1.yanah.hier>
+Feb 17 20:47:45 dns-z2 postfix/qmgr[1209]: 5AF7310125E: from=<u1@z1.yanah.hier>, size=772, nrcpt=1 (queue active)
+Feb 17 20:47:45 dns-z2 postfix/smtpd[23601]: disconnect from unknown[192.168.11.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 17 20:47:45 dns-z2 postfix/local[23606]: 5984A101248: to=<u2@z2.yanah.hier>, relay=local, delay=0.04, delays=0.02/0.02/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 20:47:45 dns-z2 postfix/qmgr[1209]: 5984A101248: removed
+Feb 17 20:47:45 dns-z2 postfix/local[23606]: 5AF7310125E: to=<u2@z2.yanah.hier>, relay=local, delay=0.05, delays=0.03/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 17 20:47:45 dns-z2 postfix/qmgr[1209]: 5AF7310125E: removed
+Feb 17 20:48:05 dns-z2 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23683, secured, session=<uWPyHx2CEoN/AAAB>
+Feb 17 20:48:05 dns-z2 dovecot: imap(u2): Logged out in=44 out=870
+Feb 17 20:48:45 dns-z2 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23685, secured, session=<FjhTIh2CFoN/AAAB>
+Feb 17 20:48:45 dns-z2 dovecot: imap(u2): Logged out in=44 out=870
+Feb 17 20:51:05 dns-z2 postfix/anvil[23602]: statistics: max connection rate 2/60s for (smtp:192.168.11.100) at Feb 17 20:47:45
+Feb 17 20:51:05 dns-z2 postfix/anvil[23602]: statistics: max connection count 2 for (smtp:192.168.11.100) at Feb 17 20:47:45
+Feb 17 20:51:05 dns-z2 postfix/anvil[23602]: statistics: max cache size 1 at Feb 17 20:47:45
+Feb 17 21:03:34 dns-z2 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24782, secured, session=<L9xRVx2CGoN/AAAB>
+Feb 17 21:03:34 dns-z2 dovecot: imap(u2): Logged out in=44 out=870
+Feb 17 21:04:30 dns-z2 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24854, secured, session=<eJemWh2CHoN/AAAB>
+Feb 17 21:04:30 dns-z2 dovecot: imap(u2): Logged out in=44 out=870
+Feb 17 21:04:30 dns-z2 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24856, secured, session=<156oWh2CIoN/AAAB>
+Feb 17 21:04:30 dns-z2 dovecot: imap(u2): Logged out in=464 out=1708
+Feb 17 21:04:30 dns-z2 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24859, secured, session=<ePypWh2CJoN/AAAB>
+Feb 17 21:04:30 dns-z2 dovecot: imap(u2): Logged out in=296 out=3884
+Feb 17 21:11:22 dns-z2 dovecot: imap-login: Aborted login (auth failed, 1 attempts in 4 secs): user=<u2>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, secured, session=<auj8ch2CKoN/AAAB>
+Feb 17 21:11:34 dns-z2 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=25454, secured, session=<ExG4cx2CLoN/AAAB>
+Feb 17 21:11:34 dns-z2 dovecot: imap(u2): Logged out in=44 out=870
+Feb 17 21:11:34 dns-z2 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=25456, secured, session=<qfX2cx2CMoN/AAAB>
+Feb 17 21:11:34 dns-z2 dovecot: imap(u2): Logged out in=417 out=1969
+Feb 17 21:11:34 dns-z2 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=25458, secured, session=<y2z3cx2CNoN/AAAB>
+Feb 17 21:11:34 dns-z2 dovecot: imap(u2): Logged out in=296 out=3850
+Feb 17 21:11:36 dns-z2 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=25460, secured, session=<OY4NdB2COoN/AAAB>
+Feb 17 21:11:36 dns-z2 dovecot: imap(u2): Logged out in=146 out=2034
+Feb 17 21:11:39 dns-z2 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=25462, secured, session=<Um08dB2CPoN/AAAB>
+Feb 17 21:11:39 dns-z2 dovecot: imap(u2): Logged out in=296 out=3855
+Feb 17 21:11:40 dns-z2 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=25464, secured, session=<2xZPdB2CQoN/AAAB>
+Feb 17 21:11:40 dns-z2 dovecot: imap(u2): Logged out in=146 out=2036
+Feb 17 21:11:42 dns-z2 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=25466, secured, session=<iB9mdB2CRoN/AAAB>
+Feb 17 21:11:42 dns-z2 dovecot: imap(u2): Logged out in=296 out=3860
+Feb 17 21:11:43 dns-z2 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=25468, secured, session=<JNN5dB2CSoN/AAAB>
+Feb 17 21:11:43 dns-z2 dovecot: imap(u2): Logged out in=146 out=2030
+Feb 17 21:11:44 dns-z2 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=25470, secured, session=</3uPdB2CToN/AAAB>
+Feb 17 21:11:44 dns-z2 dovecot: imap(u2): Logged out in=296 out=3865
+Feb 18 15:20:52 dns-z2 dovecot: imap: Warning: Time jumped forwards 65143 seconds
+Feb 18 15:20:53 dns-z2 dovecot: message repeated 2 times: [ imap: Warning: Time jumped forwards 65143 seconds]
+Feb 18 15:29:06 dns-z2 dovecot: imap(u1): Logged out in=2117 out=9274
+Feb 18 15:29:06 dns-z2 dovecot: imap(u1): Logged out in=1052 out=5876
+Feb 18 15:29:06 dns-z2 dovecot: imap(u2): Logged out in=4522 out=22269
+Feb 18 15:29:07 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=27051, TLS, session=<nIARySyCUq/AqA1j>
+Feb 18 15:29:07 dns-z2 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=27052, TLS, session=<r4ERySyCVK/AqA1j>
+Feb 18 18:57:52 dns-z2 postfix/postfix-script[41898]: stopping the Postfix mail system
+Feb 18 18:57:52 dns-z2 postfix/master[1194]: terminating on signal 15
+Feb 18 18:57:52 dns-z2 postfix/postfix-script[42053]: starting the Postfix mail system
+Feb 18 18:57:52 dns-z2 postfix/master[42055]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 18 18:57:59 dns-z2 dovecot: master: Warning: Killed with signal 15 (by pid=42083 uid=0 code=kill)
+Feb 18 18:57:59 dns-z2 dovecot: imap(u1): Server shutting down. in=3221 out=16458
+Feb 18 18:57:59 dns-z2 dovecot: imap(u2): Server shutting down. in=6773 out=26830
+Feb 18 18:57:59 dns-z2 dovecot: log: Warning: Killed with signal 15 (by pid=1 uid=0 code=kill)
+Feb 18 18:57:59 dns-z2 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Feb 18 18:58:15 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=42188, TLS, session=<+7MHtS+CNrDAqA1j>
+Feb 18 18:59:17 dns-z2 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=42259, TLS, session=<RC2yuC+CTLDAqA1j>
+Feb 18 19:39:25 dns-z2 dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Feb 18 19:39:26 dns-z2 postfix/postfix-script[1224]: starting the Postfix mail system
+Feb 18 19:39:26 dns-z2 postfix/master[1226]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 18 19:47:41 dns-z2 dovecot: imap-login: Login: user=<u1>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=2091, TLS, session=<HR3GZTCCLLHAqA1j>
+Feb 18 19:48:49 dns-z2 dovecot: imap-login: Login: user=<u2>, method=PLAIN, rip=192.168.13.99, lip=192.168.12.100, mpid=2163, TLS, session=<menfaTCCLrHAqA1j>
+Feb 18 20:03:30 dns-z2 postfix/postfix-script[3236]: stopping the Postfix mail system
+Feb 18 20:03:30 dns-z2 postfix/master[1226]: terminating on signal 15
+Feb 18 20:03:31 dns-z2 postfix/postfix-script[3391]: starting the Postfix mail system
+Feb 18 20:03:31 dns-z2 postfix/master[3393]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 18 20:08:13 dns-z2 postfix/postfix-script[3770]: stopping the Postfix mail system
+Feb 18 20:08:13 dns-z2 postfix/master[3393]: terminating on signal 15
+Feb 18 20:08:14 dns-z2 postfix/postfix-script[3925]: starting the Postfix mail system
+Feb 18 20:08:14 dns-z2 postfix/master[3927]: daemon started -- version 3.3.0, configuration /etc/postfix
+Feb 18 20:17:56 dns-z2 postfix/pickup[3937]: B0628101310: uid=1000 from=<yanah@dns-z2>
+Feb 18 20:17:56 dns-z2 postfix/cleanup[5011]: B0628101310: message-id=<20190218201756.B0628101310@z2.yanah.hier>
+Feb 18 20:17:56 dns-z2 postfix/qmgr[3938]: B0628101310: from=<yanah@dns-z2>, size=353, nrcpt=1 (queue active)
+Feb 18 20:17:56 dns-z2 postfix/local[5015]: B0628101310: to=<u1@z2.yanah.hier>, relay=local, delay=0.08, delays=0.05/0.01/0/0.02, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 20:17:56 dns-z2 postfix/qmgr[3938]: B0628101310: removed
+Feb 18 20:25:18 dns-z2 postfix/pickup[3937]: 99E33101310: uid=1000 from=<yanah@dns-z2>
+Feb 18 20:25:18 dns-z2 postfix/cleanup[5574]: 99E33101310: message-id=<20190218202518.99E33101310@z2.yanah.hier>
+Feb 18 20:25:18 dns-z2 postfix/qmgr[3938]: 99E33101310: from=<yanah@dns-z2>, size=358, nrcpt=1 (queue active)
+Feb 18 20:25:18 dns-z2 postfix/local[5576]: 99E33101310: to=<u2@z2.yanah.hier>, relay=local, delay=0.05, delays=0.02/0/0/0.02, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 20:25:18 dns-z2 postfix/qmgr[3938]: 99E33101310: removed
+Feb 18 20:30:01 dns-z2 postfix/smtpd[5880]: warning: cannot get RSA certificate from file "/etc/ssl/certs/z1.yanah.hier.pem": disabling TLS support
+Feb 18 20:30:01 dns-z2 postfix/smtpd[5880]: warning: TLS library problem: error:02001002:system library:fopen:No such file or directory:../crypto/bio/bss_file.c:292:fopen('/etc/ssl/certs/z1.yanah.hier.pem','r'):
+Feb 18 20:30:01 dns-z2 postfix/smtpd[5880]: warning: TLS library problem: error:20074002:BIO routines:file_ctrl:system lib:../crypto/bio/bss_file.c:294:
+Feb 18 20:30:01 dns-z2 postfix/smtpd[5880]: warning: TLS library problem: error:140DC002:SSL routines:use_certificate_chain_file:system lib:../ssl/ssl_rsa.c:609:
+Feb 18 20:30:01 dns-z2 postfix/smtpd[5880]: connect from unknown[192.168.11.100]
+Feb 18 20:30:01 dns-z2 postfix/smtpd[5880]: D8DB6101310: client=unknown[192.168.11.100]
+Feb 18 20:30:01 dns-z2 postfix/cleanup[5925]: D8DB6101310: message-id=<20190218203001.94D5BE05D4@z1.yanah.hier>
+Feb 18 20:30:01 dns-z2 postfix/qmgr[3938]: D8DB6101310: from=<yanah@z1.yanah.hier>, size=524, nrcpt=1 (queue active)
+Feb 18 20:30:01 dns-z2 postfix/smtpd[5880]: disconnect from unknown[192.168.11.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 18 20:30:01 dns-z2 postfix/local[5926]: D8DB6101310: to=<u2@z2.yanah.hier>, relay=local, delay=0.03, delays=0.01/0/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 20:30:01 dns-z2 postfix/qmgr[3938]: D8DB6101310: removed
+Feb 18 20:33:21 dns-z2 postfix/anvil[5922]: statistics: max connection rate 1/60s for (smtp:192.168.11.100) at Feb 18 20:30:01
+Feb 18 20:33:21 dns-z2 postfix/anvil[5922]: statistics: max connection count 1 for (smtp:192.168.11.100) at Feb 18 20:30:01
+Feb 18 20:33:21 dns-z2 postfix/anvil[5922]: statistics: max cache size 1 at Feb 18 20:30:01
+Feb 18 20:35:49 dns-z2 postfix/smtpd[6319]: warning: cannot get RSA certificate from file "/etc/ssl/certs/z1.yanah.hier.pem": disabling TLS support
+Feb 18 20:35:49 dns-z2 postfix/smtpd[6319]: warning: TLS library problem: error:02001002:system library:fopen:No such file or directory:../crypto/bio/bss_file.c:292:fopen('/etc/ssl/certs/z1.yanah.hier.pem','r'):
+Feb 18 20:35:49 dns-z2 postfix/smtpd[6319]: warning: TLS library problem: error:20074002:BIO routines:file_ctrl:system lib:../crypto/bio/bss_file.c:294:
+Feb 18 20:35:49 dns-z2 postfix/smtpd[6319]: warning: TLS library problem: error:140DC002:SSL routines:use_certificate_chain_file:system lib:../ssl/ssl_rsa.c:609:
+Feb 18 20:35:49 dns-z2 postfix/smtpd[6319]: connect from unknown[192.168.11.100]
+Feb 18 20:35:49 dns-z2 postfix/smtpd[6319]: 8E2A9101310: client=unknown[192.168.11.100]
+Feb 18 20:35:49 dns-z2 postfix/cleanup[6324]: 8E2A9101310: message-id=<20190218203549.65457E05D4@z1.yanah.hier>
+Feb 18 20:35:49 dns-z2 postfix/qmgr[3938]: 8E2A9101310: from=<yanah@z1.yanah.hier>, size=536, nrcpt=1 (queue active)
+Feb 18 20:35:49 dns-z2 postfix/smtpd[6319]: disconnect from unknown[192.168.11.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 18 20:35:49 dns-z2 postfix/local[6325]: 8E2A9101310: to=<u2@z2.yanah.hier>, relay=local, delay=0.02, delays=0.01/0/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 20:35:49 dns-z2 postfix/qmgr[3938]: 8E2A9101310: removed
+Feb 18 20:39:09 dns-z2 postfix/anvil[6321]: statistics: max connection rate 1/60s for (smtp:192.168.11.100) at Feb 18 20:35:49
+Feb 18 20:39:09 dns-z2 postfix/anvil[6321]: statistics: max connection count 1 for (smtp:192.168.11.100) at Feb 18 20:35:49
+Feb 18 20:39:09 dns-z2 postfix/anvil[6321]: statistics: max cache size 1 at Feb 18 20:35:49
+Feb 18 20:39:37 dns-z2 postfix/pickup[3937]: D23EC101310: uid=1000 from=<u2@z2.yanah.hier>
+Feb 18 20:39:37 dns-z2 postfix/cleanup[6674]: D23EC101310: message-id=<20190218203937.D23EC101310@z2.yanah.hier>
+Feb 18 20:39:37 dns-z2 postfix/qmgr[3938]: D23EC101310: from=<u2@z2.yanah.hier>, size=352, nrcpt=1 (queue active)
+Feb 18 20:39:37 dns-z2 postfix/smtp[6676]: D23EC101310: to=<u3@z1.yanah.hier>, relay=192.168.11.103[192.168.11.103]:25, delay=0.07, delays=0.02/0.01/0.03/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as D9951E0347)
+Feb 18 20:39:37 dns-z2 postfix/qmgr[3938]: D23EC101310: removed
+Feb 18 21:02:47 dns-z2 postfix/pickup[3937]: 43821101310: uid=1000 from=<yanah@dns-z2>
+Feb 18 21:02:47 dns-z2 postfix/cleanup[8279]: 43821101310: message-id=<20190218210247.43821101310@z2.yanah.hier>
+Feb 18 21:02:47 dns-z2 postfix/qmgr[3938]: 43821101310: from=<yanah@dns-z2>, size=356, nrcpt=1 (queue active)
+Feb 18 21:02:47 dns-z2 postfix/smtp[8281]: 43821101310: to=<u2@z1.yanah.hier>, relay=192.168.11.103[192.168.11.103]:25, delay=0.06, delays=0.02/0.01/0.03/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 49DD6E05D2)
+Feb 18 21:02:47 dns-z2 postfix/qmgr[3938]: 43821101310: removed
+Feb 18 21:04:44 dns-z2 postfix/smtpd[8418]: warning: cannot get RSA certificate from file "/etc/ssl/certs/z1.yanah.hier.pem": disabling TLS support
+Feb 18 21:04:44 dns-z2 postfix/smtpd[8418]: warning: TLS library problem: error:02001002:system library:fopen:No such file or directory:../crypto/bio/bss_file.c:292:fopen('/etc/ssl/certs/z1.yanah.hier.pem','r'):
+Feb 18 21:04:44 dns-z2 postfix/smtpd[8418]: warning: TLS library problem: error:20074002:BIO routines:file_ctrl:system lib:../crypto/bio/bss_file.c:294:
+Feb 18 21:04:44 dns-z2 postfix/smtpd[8418]: warning: TLS library problem: error:140DC002:SSL routines:use_certificate_chain_file:system lib:../ssl/ssl_rsa.c:609:
+Feb 18 21:04:44 dns-z2 postfix/smtpd[8418]: connect from unknown[192.168.11.100]
+Feb 18 21:04:44 dns-z2 postfix/smtpd[8418]: 86794101310: client=unknown[192.168.11.100]
+Feb 18 21:04:44 dns-z2 postfix/cleanup[8423]: 86794101310: message-id=<20190218210444.63F88E05D3@z1.yanah.hier>
+Feb 18 21:04:44 dns-z2 postfix/qmgr[3938]: 86794101310: from=<yanah@z1.yanah.hier>, size=538, nrcpt=1 (queue active)
+Feb 18 21:04:44 dns-z2 postfix/smtpd[8418]: disconnect from unknown[192.168.11.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 18 21:04:44 dns-z2 postfix/local[8424]: 86794101310: to=<u2@z2.yanah.hier>, relay=local, delay=0.02, delays=0.01/0/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 21:04:44 dns-z2 postfix/qmgr[3938]: 86794101310: removed
+Feb 18 21:04:52 dns-z2 postfix/smtpd[8418]: connect from unknown[192.168.11.100]
+Feb 18 21:04:52 dns-z2 postfix/smtpd[8418]: AFAA5101310: client=unknown[192.168.11.100]
+Feb 18 21:04:52 dns-z2 postfix/cleanup[8423]: AFAA5101310: message-id=<20190218210452.81BE1E05D3@z1.yanah.hier>
+Feb 18 21:04:52 dns-z2 postfix/qmgr[3938]: AFAA5101310: from=<yanah@z1.yanah.hier>, size=538, nrcpt=1 (queue active)
+Feb 18 21:04:52 dns-z2 postfix/smtpd[8418]: disconnect from unknown[192.168.11.100] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Feb 18 21:04:52 dns-z2 postfix/local[8424]: AFAA5101310: to=<u2@z2.yanah.hier>, relay=local, delay=0.01, delays=0/0/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Feb 18 21:04:52 dns-z2 postfix/qmgr[3938]: AFAA5101310: removed
+Feb 18 21:07:50 dns-z2 postfix/pickup[3937]: B7A3C101310: uid=1000 from=<u1@z1.yanah.hier>
+Feb 18 21:07:50 dns-z2 postfix/cleanup[8635]: B7A3C101310: message-id=<20190218210750.B7A3C101310@z2.yanah.hier>
+Feb 18 21:07:50 dns-z2 postfix/qmgr[3938]: B7A3C101310: from=<u1@z1.yanah.hier>, size=336, nrcpt=1 (queue active)
+Feb 18 21:07:50 dns-z2 postfix/smtp[8637]: B7A3C101310: to=<u3@z1.yanah.hier>, relay=192.168.11.103[192.168.11.103]:25, delay=0.22, delays=0.1/0/0.02/0.09, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as BBCBCE05D2)
+Feb 18 21:07:50 dns-z2 postfix/qmgr[3938]: B7A3C101310: removed
+Feb 18 21:08:12 dns-z2 postfix/anvil[8420]: statistics: max connection rate 2/60s for (smtp:192.168.11.100) at Feb 18 21:04:52
+Feb 18 21:08:12 dns-z2 postfix/anvil[8420]: statistics: max connection count 1 for (smtp:192.168.11.100) at Feb 18 21:04:44
+Feb 18 21:08:12 dns-z2 postfix/anvil[8420]: statistics: max cache size 1 at Feb 18 21:04:44
+Feb 18 21:12:52 dns-z2 postfix/pickup[3937]: 25E92101310: uid=1000 from=<u1@z1.yanah.hier>
+Feb 18 21:12:52 dns-z2 postfix/cleanup[9056]: 25E92101310: message-id=<20190218211252.25E92101310@z2.yanah.hier>
+Feb 18 21:12:52 dns-z2 postfix/qmgr[3938]: 25E92101310: from=<u1@z1.yanah.hier>, size=347, nrcpt=1 (queue active)
+Feb 18 21:12:52 dns-z2 postfix/smtp[9058]: 25E92101310: to=<u2@z1.yanah.hier>, relay=192.168.11.103[192.168.11.103]:25, delay=0.05, delays=0.01/0.01/0.02/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 2C6EAE05D2)
+Feb 18 21:12:52 dns-z2 postfix/qmgr[3938]: 25E92101310: removed
+Feb 18 21:13:14 dns-z2 postfix/pickup[3937]: 4B2F9101310: uid=1000 from=<u1@z1.yanah.hier>
+Feb 18 21:13:14 dns-z2 postfix/cleanup[9056]: 4B2F9101310: message-id=<20190218211314.4B2F9101310@z2.yanah.hier>
+Feb 18 21:13:14 dns-z2 postfix/qmgr[3938]: 4B2F9101310: from=<u1@z1.yanah.hier>, size=347, nrcpt=1 (queue active)
+Feb 18 21:13:14 dns-z2 postfix/smtp[9058]: 4B2F9101310: to=<u2@z1.yanah.hier>, relay=192.168.11.103[192.168.11.103]:25, delay=0.02, delays=0.01/0/0/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 4A900E05D2)
+Feb 18 21:13:14 dns-z2 postfix/qmgr[3938]: 4B2F9101310: removed
+Feb 18 21:13:25 dns-z2 postfix/pickup[3937]: C1EBF101310: uid=1000 from=<u1@z1.yanah.hier>
+Feb 18 21:13:25 dns-z2 postfix/cleanup[9056]: C1EBF101310: message-id=<20190218211325.C1EBF101310@z2.yanah.hier>
+Feb 18 21:13:25 dns-z2 postfix/qmgr[3938]: C1EBF101310: from=<u1@z1.yanah.hier>, size=347, nrcpt=1 (queue active)
+Feb 18 21:13:25 dns-z2 postfix/smtp[9058]: C1EBF101310: to=<u2@z1.yanah.hier>, relay=192.168.11.103[192.168.11.103]:25, delay=0.02, delays=0.01/0/0/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as C1E48E05D2)
+Feb 18 21:13:25 dns-z2 postfix/qmgr[3938]: C1EBF101310: removed
+Feb 18 21:15:35 dns-z2 postfix/pickup[3937]: B96AD101310: uid=1000 from=<u1@z1.yanah.hier>
+Feb 18 21:15:35 dns-z2 postfix/cleanup[9288]: B96AD101310: message-id=<20190218211535.B96AD101310@z2.yanah.hier>
+Feb 18 21:15:35 dns-z2 postfix/qmgr[3938]: B96AD101310: from=<u1@z1.yanah.hier>, size=347, nrcpt=1 (queue active)
+Feb 18 21:15:35 dns-z2 postfix/smtp[9290]: B96AD101310: to=<u2@z1.yanah.hier>, relay=192.168.11.103[192.168.11.103]:25, delay=0.05, delays=0.01/0.01/0.02/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as C133DE05D2)
+Feb 18 21:15:35 dns-z2 postfix/qmgr[3938]: B96AD101310: removed
+Feb 19 14:59:22 dns-z2 dovecot: imap: Warning: Time jumped forwards 60254 seconds
+Feb 19 14:59:22 dns-z2 dovecot: imap: Warning: Time jumped forwards 60252 seconds
